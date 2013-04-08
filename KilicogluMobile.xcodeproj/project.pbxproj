@@ -1,0 +1,1629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0406AC27164F0CBE008B97D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0406AC26164F0CBE008B97D0 /* QuartzCore.framework */; };
+		0414F04C1699E3CC000176BB /* app_icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0414F04B1699E3CC000176BB /* app_icon72x72.png */; };
+		0414F04F1699E3D4000176BB /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0414F04E1699E3D4000176BB /* app_icon.png */; };
+		042B151116C8145300F9BB2F /* distributorlar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B150916C8145300F9BB2F /* distributorlar1.png */; };
+		042B151216C8145300F9BB2F /* iletisim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B150A16C8145300F9BB2F /* iletisim1.png */; };
+		042B151316C8145300F9BB2F /* kilicoglil1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B150B16C8145300F9BB2F /* kilicoglil1.png */; };
+		042B151416C8145300F9BB2F /* kilicoglu_yetkilileri1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B150C16C8145300F9BB2F /* kilicoglu_yetkilileri1.png */; };
+		042B151516C8145300F9BB2F /* kilicoglu_yetkilileri2.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B150D16C8145300F9BB2F /* kilicoglu_yetkilileri2.png */; };
+		042B151616C8145300F9BB2F /* kılıçoglu_dist1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B150E16C8145300F9BB2F /* kılıçoglu_dist1.png */; };
+		042B151716C8145300F9BB2F /* kılıçoglu_yetkili_servis1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B150F16C8145300F9BB2F /* kılıçoglu_yetkili_servis1.png */; };
+		042B151816C8145300F9BB2F /* yetkili_servisler1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B151016C8145300F9BB2F /* yetkili_servisler1.png */; };
+		042B151A16C814D800F9BB2F /* tum_cati_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B151916C814D800F9BB2F /* tum_cati_new.png */; };
+		042B151D16C814F800F9BB2F /* gunes_paneli_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B151B16C814F800F9BB2F /* gunes_paneli_birlesik.png */; };
+		042B151E16C814F800F9BB2F /* gunes_panelleri_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B151C16C814F800F9BB2F /* gunes_panelleri_baslik.png */; };
+		042B152116C8150800F9BB2F /* yagmur_indirme_genel_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B151F16C8150800F9BB2F /* yagmur_indirme_genel_baslik.png */; };
+		042B152216C8150800F9BB2F /* yagmur_indirme_genel_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152016C8150800F9BB2F /* yagmur_indirme_genel_birlesik.png */; };
+		042B152516C8151600F9BB2F /* kiremit_levhasi_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152316C8151600F9BB2F /* kiremit_levhasi_baslik.png */; };
+		042B152616C8151600F9BB2F /* kiremit_levhasi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152416C8151600F9BB2F /* kiremit_levhasi.png */; };
+		042B152916C8152B00F9BB2F /* kiremit_irmigi_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152716C8152B00F9BB2F /* kiremit_irmigi_baslik.png */; };
+		042B152A16C8152B00F9BB2F /* kiremit_irmigi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152816C8152B00F9BB2F /* kiremit_irmigi.png */; };
+		042B154316C8158800F9BB2F /* detay_cozumleri_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152B16C8158800F9BB2F /* detay_cozumleri_baslik.png */; };
+		042B154416C8158800F9BB2F /* detay_cozumleri_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152C16C8158800F9BB2F /* detay_cozumleri_birlesik.png */; };
+		042B154516C8158800F9BB2F /* detay_cozumleri.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152D16C8158800F9BB2F /* detay_cozumleri.png */; };
+		042B154616C8158800F9BB2F /* dubeller_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152E16C8158800F9BB2F /* dubeller_baslik.png */; };
+		042B154716C8158800F9BB2F /* dubeller_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B152F16C8158800F9BB2F /* dubeller_birlesik.png */; };
+		042B154816C8158800F9BB2F /* dubeller.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153016C8158800F9BB2F /* dubeller.png */; };
+		042B154916C8158800F9BB2F /* isi_yalitim_levhasi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153116C8158800F9BB2F /* isi_yalitim_levhasi.png */; };
+		042B154A16C8158800F9BB2F /* kaplama_Astari_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153216C8158800F9BB2F /* kaplama_Astari_baslik.png */; };
+		042B154B16C8158800F9BB2F /* kaplama_Astari_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153316C8158800F9BB2F /* kaplama_Astari_birlesik.png */; };
+		042B154C16C8158800F9BB2F /* kaplama_astari.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153416C8158800F9BB2F /* kaplama_astari.png */; };
+		042B154D16C8158800F9BB2F /* levha_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153516C8158800F9BB2F /* levha_baslik.png */; };
+		042B154E16C8158800F9BB2F /* levha_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153616C8158800F9BB2F /* levha_birlesik.png */; };
+		042B154F16C8158800F9BB2F /* mineral_siva_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153716C8158800F9BB2F /* mineral_siva_baslik.png */; };
+		042B155016C8158800F9BB2F /* mineral_siva_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153816C8158800F9BB2F /* mineral_siva_birlesik.png */; };
+		042B155116C8158800F9BB2F /* mineral_siva.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153916C8158800F9BB2F /* mineral_siva.png */; };
+		042B155216C8158800F9BB2F /* siva_filesi_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153A16C8158800F9BB2F /* siva_filesi_baslik.png */; };
+		042B155316C8158800F9BB2F /* siva_filesi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153B16C8158800F9BB2F /* siva_filesi_birlesik.png */; };
+		042B155416C8158800F9BB2F /* siva_filesi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153C16C8158800F9BB2F /* siva_filesi.png */; };
+		042B155516C8158800F9BB2F /* siva_harci_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153D16C8158800F9BB2F /* siva_harci_baslik.png */; };
+		042B155616C8158800F9BB2F /* siva_harci_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153E16C8158800F9BB2F /* siva_harci_birlesik.png */; };
+		042B155716C8158800F9BB2F /* siva_harci.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B153F16C8158800F9BB2F /* siva_harci.png */; };
+		042B155816C8158800F9BB2F /* yapistirma_harci_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B154016C8158800F9BB2F /* yapistirma_harci_baslik.png */; };
+		042B155916C8158800F9BB2F /* yapistirma_harci_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B154116C8158800F9BB2F /* yapistirma_harci_birlesik.png */; };
+		042B155A16C8158800F9BB2F /* yapistirma_harci.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B154216C8158800F9BB2F /* yapistirma_harci.png */; };
+		042B156716C815AF00F9BB2F /* ates_tugla_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B155B16C815AF00F9BB2F /* ates_tugla_baslik.png */; };
+		042B156816C815AF00F9BB2F /* ates_tugla_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B155C16C815AF00F9BB2F /* ates_tugla_birlesik.png */; };
+		042B156916C815AF00F9BB2F /* ates_tugla.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B155D16C815AF00F9BB2F /* ates_tugla.png */; };
+		042B156A16C815AF00F9BB2F /* cephe_doseme.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B155E16C815AF00F9BB2F /* cephe_doseme.png */; };
+		042B156B16C815AF00F9BB2F /* cephe_kaplama_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B155F16C815AF00F9BB2F /* cephe_kaplama_baslik.png */; };
+		042B156C16C815AF00F9BB2F /* cephe_kaplama_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B156016C815AF00F9BB2F /* cephe_kaplama_birlesik.png */; };
+		042B156D16C815AF00F9BB2F /* nt_tugla_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B156116C815AF00F9BB2F /* nt_tugla_baslik.png */; };
+		042B156E16C815AF00F9BB2F /* nt_tugla_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B156216C815AF00F9BB2F /* nt_tugla_birlesik.png */; };
+		042B156F16C815AF00F9BB2F /* nt_tugla.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B156316C815AF00F9BB2F /* nt_tugla.png */; };
+		042B157016C815AF00F9BB2F /* taban_doseme_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B156416C815AF00F9BB2F /* taban_doseme_birlesik.png */; };
+		042B157116C815AF00F9BB2F /* taban_doseme_tugla_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B156516C815AF00F9BB2F /* taban_doseme_tugla_baslik.png */; };
+		042B157216C815AF00F9BB2F /* taban_doseme_tuglasi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B156616C815AF00F9BB2F /* taban_doseme_tuglasi.png */; };
+		042B157C16C815CD00F9BB2F /* cati_cikis_kapagi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157316C815CD00F9BB2F /* cati_cikis_kapagi_birlesik.png */; };
+		042B157D16C815CD00F9BB2F /* cati_cikis_kapagi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157416C815CD00F9BB2F /* cati_cikis_kapagi.png */; };
+		042B157E16C815CD00F9BB2F /* cati_cikis_kapak_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157516C815CD00F9BB2F /* cati_cikis_kapak_baslik.png */; };
+		042B157F16C815CD00F9BB2F /* cati_cikis_merdiveni_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157616C815CD00F9BB2F /* cati_cikis_merdiveni_baslik.png */; };
+		042B158016C815CD00F9BB2F /* cati_cikis_merdiveni_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157716C815CD00F9BB2F /* cati_cikis_merdiveni_birlesik.png */; };
+		042B158116C815CD00F9BB2F /* cati_cikis_merdiveni.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157816C815CD00F9BB2F /* cati_cikis_merdiveni.png */; };
+		042B158216C815CD00F9BB2F /* cati_penceresi_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157916C815CD00F9BB2F /* cati_penceresi_baslik.png */; };
+		042B158316C815CD00F9BB2F /* cati_penceresi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157A16C815CD00F9BB2F /* cati_penceresi_birlesik.png */; };
+		042B158416C815CD00F9BB2F /* cati_penceresi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B157B16C815CD00F9BB2F /* cati_penceresi.png */; };
+		042B15BF16C8178700F9BB2F /* baca_fleks_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158516C8178700F9BB2F /* baca_fleks_baslik.png */; };
+		042B15C016C8178700F9BB2F /* baca_sapkasi_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158616C8178700F9BB2F /* baca_sapkasi_baslik.png */; };
+		042B15C116C8178700F9BB2F /* baca_sapkasi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158716C8178700F9BB2F /* baca_sapkasi_birlesik.png */; };
+		042B15C216C8178700F9BB2F /* baca_sapkasi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158816C8178700F9BB2F /* baca_sapkasi.png */; };
+		042B15C316C8178700F9BB2F /* bacafleks_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158916C8178700F9BB2F /* bacafleks_birlesik.png */; };
+		042B15C416C8178700F9BB2F /* bacafleks.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158A16C8178700F9BB2F /* bacafleks.png */; };
+		042B15C516C8178700F9BB2F /* bacaser_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158B16C8178700F9BB2F /* bacaser_baslik.png */; };
+		042B15C616C8178700F9BB2F /* bacaser_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158C16C8178700F9BB2F /* bacaser_birlesik.png */; };
+		042B15C716C8178700F9BB2F /* bacaser.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158D16C8178700F9BB2F /* bacaser.png */; };
+		042B15C816C8178700F9BB2F /* bacaveduvar_dibi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158E16C8178700F9BB2F /* bacaveduvar_dibi.png */; };
+		042B15C916C8178700F9BB2F /* baski_citasi_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B158F16C8178700F9BB2F /* baski_citasi_baslik.png */; };
+		042B15CA16C8178700F9BB2F /* baski_citasi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159016C8178700F9BB2F /* baski_citasi_birlesik.png */; };
+		042B15CB16C8178700F9BB2F /* baski_citasi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159116C8178700F9BB2F /* baski_citasi.png */; };
+		042B15CC16C8178700F9BB2F /* castiser.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159216C8178700F9BB2F /* castiser.png */; };
+		042B15CD16C8178700F9BB2F /* catifiks_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159316C8178700F9BB2F /* catifiks_baslik.png */; };
+		042B15CE16C8178700F9BB2F /* catifiks_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159416C8178700F9BB2F /* catifiks_birlesik.png */; };
+		042B15CF16C8178700F9BB2F /* catifiks.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159516C8178700F9BB2F /* catifiks.png */; };
+		042B15D016C8178700F9BB2F /* catise_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159616C8178700F9BB2F /* catise_baslik.png */; };
+		042B15D116C8178700F9BB2F /* catiser_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159716C8178700F9BB2F /* catiser_birlesik.png */; };
+		042B15D216C8178700F9BB2F /* catiser_plus_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159816C8178700F9BB2F /* catiser_plus_baslik.png */; };
+		042B15D316C8178700F9BB2F /* catiser_plus_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159916C8178700F9BB2F /* catiser_plus_birlesik.png */; };
+		042B15D416C8178700F9BB2F /* catiser_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159A16C8178700F9BB2F /* catiser_plus.png */; };
+		042B15D516C8178700F9BB2F /* catiser_reflektif_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159B16C8178700F9BB2F /* catiser_reflektif_baslik.png */; };
+		042B15D616C8178700F9BB2F /* catiser_reflektif_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159C16C8178700F9BB2F /* catiser_reflektif_birlesik.png */; };
+		042B15D716C8178700F9BB2F /* catiser_reflektif.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159D16C8178700F9BB2F /* catiser_reflektif.png */; };
+		042B15D816C8178700F9BB2F /* catiser_yp_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159E16C8178700F9BB2F /* catiser_yp_baslik.png */; };
+		042B15D916C8178700F9BB2F /* catiseryp_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B159F16C8178700F9BB2F /* catiseryp_birlesik.png */; };
+		042B15DA16C8178700F9BB2F /* cstiser_yp.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A016C8178700F9BB2F /* cstiser_yp.png */; };
+		042B15DB16C8178700F9BB2F /* deay_cozumleri.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A116C8178700F9BB2F /* deay_cozumleri.png */; };
+		042B15DC16C8178700F9BB2F /* dere_detayi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A216C8178700F9BB2F /* dere_detayi.png */; };
+		042B15DD16C8178700F9BB2F /* dereser_aliminyum_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A316C8178700F9BB2F /* dereser_aliminyum_baslik.png */; };
+		042B15DE16C8178700F9BB2F /* dereser_aluminyum_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A416C8178700F9BB2F /* dereser_aluminyum_birlesik.png */; };
+		042B15DF16C8178700F9BB2F /* dereser_aluminyum1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A516C8178700F9BB2F /* dereser_aluminyum1.png */; };
+		042B15E016C8178700F9BB2F /* dereser_aluminyum2.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A616C8178700F9BB2F /* dereser_aluminyum2.png */; };
+		042B15E116C8178700F9BB2F /* dereser_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A716C8178700F9BB2F /* dereser_baslik.png */; };
+		042B15E216C8178700F9BB2F /* dereser_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A816C8178700F9BB2F /* dereser_birlesik.png */; };
+		042B15E316C8178700F9BB2F /* dereser_pvc1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15A916C8178700F9BB2F /* dereser_pvc1.png */; };
+		042B15E416C8178700F9BB2F /* dereser_pvc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15AA16C8178700F9BB2F /* dereser_pvc2.png */; };
+		042B15E516C8178700F9BB2F /* detay_cozumleri_baslik_cati.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15AB16C8178700F9BB2F /* detay_cozumleri_baslik_cati.png */; };
+		042B15E616C8178700F9BB2F /* detay_cozumleri_birlesik_cati.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15AC16C8178700F9BB2F /* detay_cozumleri_birlesik_cati.png */; };
+		042B15E716C8178700F9BB2F /* havalandirma.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15AD16C8178700F9BB2F /* havalandirma.png */; };
+		042B15E816C8178700F9BB2F /* isivesuyalitim.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15AE16C8178700F9BB2F /* isivesuyalitim.png */; };
+		042B15E916C8178700F9BB2F /* izocati_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15AF16C8178700F9BB2F /* izocati_baslik.png */; };
+		042B15EA16C8178700F9BB2F /* izocati_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B016C8178700F9BB2F /* izocati_birlesik.png */; };
+		042B15EB16C8178700F9BB2F /* izocati.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B116C8178700F9BB2F /* izocati.png */; };
+		042B15EC16C8178700F9BB2F /* mahya_alti_cozumleri.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B216C8178700F9BB2F /* mahya_alti_cozumleri.png */; };
+		042B15ED16C8178700F9BB2F /* mahya_montaj_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B316C8178700F9BB2F /* mahya_montaj_baslik.png */; };
+		042B15EE16C8178700F9BB2F /* mahya_montaj_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B416C8178700F9BB2F /* mahya_montaj_birlesik.png */; };
+		042B15EF16C8178700F9BB2F /* mahya_montaj_harci.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B516C8178700F9BB2F /* mahya_montaj_harci.png */; };
+		042B15F016C8178700F9BB2F /* mahyaser_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B616C8178700F9BB2F /* mahyaser_baslik.png */; };
+		042B15F116C8178700F9BB2F /* mahyaser_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B716C8178700F9BB2F /* mahyaser_birlesik.png */; };
+		042B15F216C8178700F9BB2F /* mahyaser.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B816C8178700F9BB2F /* mahyaser.png */; };
+		042B15F316C8178700F9BB2F /* sacak_havalandirma_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15B916C8178700F9BB2F /* sacak_havalandirma_baslik.png */; };
+		042B15F416C8178700F9BB2F /* sacak_havalandirma_taragi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15BA16C8178700F9BB2F /* sacak_havalandirma_taragi_birlesik.png */; };
+		042B15F516C8178700F9BB2F /* sacak_havalandirma.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15BB16C8178700F9BB2F /* sacak_havalandirma.png */; };
+		042B15F616C8178700F9BB2F /* universal_havalandirma_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15BC16C8178700F9BB2F /* universal_havalandirma_baslik.png */; };
+		042B15F716C8178700F9BB2F /* universal_havalandirma_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15BD16C8178700F9BB2F /* universal_havalandirma_birlesik.png */; };
+		042B15F816C8178700F9BB2F /* universal_havalandirma.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15BE16C8178700F9BB2F /* universal_havalandirma.png */; };
+		042B161716C817E900F9BB2F /* akdeniz_baslik3.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15F916C817E900F9BB2F /* akdeniz_baslik3.png */; };
+		042B161816C817E900F9BB2F /* akdeniz_birlesik3.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15FA16C817E900F9BB2F /* akdeniz_birlesik3.png */; };
+		042B161916C817E900F9BB2F /* akdeniz.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15FB16C817E900F9BB2F /* akdeniz.png */; };
+		042B161A16C817E900F9BB2F /* aksesuar_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15FC16C817E900F9BB2F /* aksesuar_baslik.png */; };
+		042B161B16C817E900F9BB2F /* aksesuar.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15FD16C817E900F9BB2F /* aksesuar.png */; };
+		042B161C16C817E900F9BB2F /* aksesuarlar_genel.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15FE16C817E900F9BB2F /* aksesuarlar_genel.png */; };
+		042B161D16C817E900F9BB2F /* alaturka_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B15FF16C817E900F9BB2F /* alaturka_baslik.png */; };
+		042B161E16C817E900F9BB2F /* alaturka_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160016C817E900F9BB2F /* alaturka_birlesik.png */; };
+		042B161F16C817E900F9BB2F /* alaturka.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160116C817E900F9BB2F /* alaturka.png */; };
+		042B162016C817E900F9BB2F /* anadolu_medeniyetleri_aksesuar.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160216C817E900F9BB2F /* anadolu_medeniyetleri_aksesuar.png */; };
+		042B162116C817E900F9BB2F /* frigya_atesi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160316C817E900F9BB2F /* frigya_atesi_birlesik.png */; };
+		042B162216C817E900F9BB2F /* frigya_atesi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160416C817E900F9BB2F /* frigya_atesi.png */; };
+		042B162316C817E900F9BB2F /* frigya_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160516C817E900F9BB2F /* frigya_baslik.png */; };
+		042B162416C817E900F9BB2F /* granada_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160616C817E900F9BB2F /* granada_baslik.png */; };
+		042B162516C817E900F9BB2F /* granada_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160716C817E900F9BB2F /* granada_birlesik.png */; };
+		042B162616C817E900F9BB2F /* granada.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160816C817E900F9BB2F /* granada.png */; };
+		042B162716C817E900F9BB2F /* hitit_atesi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160916C817E900F9BB2F /* hitit_atesi_birlesik.png */; };
+		042B162816C817E900F9BB2F /* hitit_atesi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160A16C817E900F9BB2F /* hitit_atesi.png */; };
+		042B162916C817E900F9BB2F /* hitit_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160B16C817E900F9BB2F /* hitit_baslik.png */; };
+		042B162A16C817E900F9BB2F /* kilicoglu_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160C16C817E900F9BB2F /* kilicoglu_baslik.png */; };
+		042B162B16C817E900F9BB2F /* kilicoglu1_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160D16C817E900F9BB2F /* kilicoglu1_birlesik.png */; };
+		042B162C16C817E900F9BB2F /* kilicoglu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160E16C817E900F9BB2F /* kilicoglu1.png */; };
+		042B162D16C817E900F9BB2F /* kiremit_levhası_aksesuar.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B160F16C817E900F9BB2F /* kiremit_levhası_aksesuar.png */; };
+		042B162E16C817E900F9BB2F /* truva_atesi_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B161016C817E900F9BB2F /* truva_atesi_birlesik.png */; };
+		042B162F16C817E900F9BB2F /* truva_atesi.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B161116C817E900F9BB2F /* truva_atesi.png */; };
+		042B163016C817E900F9BB2F /* truva_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B161216C817E900F9BB2F /* truva_baslik.png */; };
+		042B163116C817E900F9BB2F /* valensiya_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B161316C817E900F9BB2F /* valensiya_baslik.png */; };
+		042B163216C817E900F9BB2F /* valensiya_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B161416C817E900F9BB2F /* valensiya_birlesik.png */; };
+		042B163316C817E900F9BB2F /* valensiya.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B161516C817E900F9BB2F /* valensiya.png */; };
+		042B163416C817E900F9BB2F /* vertical_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B161616C817E900F9BB2F /* vertical_line.png */; };
+		042B163E16C8181600F9BB2F /* catipenceresi_ana_secim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163516C8181600F9BB2F /* catipenceresi_ana_secim1.png */; };
+		042B163F16C8181600F9BB2F /* catisistem_ana_secim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163616C8181600F9BB2F /* catisistem_ana_secim1.png */; };
+		042B164016C8181600F9BB2F /* gunes_ana_secim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163716C8181600F9BB2F /* gunes_ana_secim1.png */; };
+		042B164116C8181600F9BB2F /* isiyalitim_ana_secim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163816C8181600F9BB2F /* isiyalitim_ana_secim1.png */; };
+		042B164216C8181600F9BB2F /* kiremit_ana_secim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163916C8181600F9BB2F /* kiremit_ana_secim1.png */; };
+		042B164316C8181600F9BB2F /* kiremitirmigi_ana_secim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163A16C8181600F9BB2F /* kiremitirmigi_ana_secim1.png */; };
+		042B164416C8181600F9BB2F /* kiremitlevha_seçimsayfaları1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163B16C8181600F9BB2F /* kiremitlevha_seçimsayfaları1.png */; };
+		042B164516C8181600F9BB2F /* tuglalar_seçimsayfaları1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163C16C8181600F9BB2F /* tuglalar_seçimsayfaları1.png */; };
+		042B164616C8181600F9BB2F /* yagmur_ana_secim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B163D16C8181600F9BB2F /* yagmur_ana_secim1.png */; };
+		042B164B16C8183100F9BB2F /* aksesuar_buton.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B164716C8183100F9BB2F /* aksesuar_buton.png */; };
+		042B164C16C8183100F9BB2F /* fotograf_buton.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B164816C8183100F9BB2F /* fotograf_buton.png */; };
+		042B164D16C8183100F9BB2F /* uygulama_sekli__buton.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B164916C8183100F9BB2F /* uygulama_sekli__buton.png */; };
+		042B164E16C8183100F9BB2F /* uygulamavideo_buton.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B164A16C8183100F9BB2F /* uygulamavideo_buton.png */; };
+		042B165816C8185D00F9BB2F /* menu_anasayfa1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B164F16C8185D00F9BB2F /* menu_anasayfa1.png */; };
+		042B165916C8185D00F9BB2F /* menu_brosurler.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B165016C8185D00F9BB2F /* menu_brosurler.png */; };
+		042B165A16C8185D00F9BB2F /* menu_fotogaleri.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B165116C8185D00F9BB2F /* menu_fotogaleri.png */; };
+		042B165B16C8185D00F9BB2F /* menu_iletisim.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B165216C8185D00F9BB2F /* menu_iletisim.png */; };
+		042B165C16C8185D00F9BB2F /* menu_kurumsal.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B165316C8185D00F9BB2F /* menu_kurumsal.png */; };
+		042B165D16C8185D00F9BB2F /* menu_teknik_cizimler.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B165416C8185D00F9BB2F /* menu_teknik_cizimler.png */; };
+		042B165E16C8185D00F9BB2F /* menu_tum_cati.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B165516C8185D00F9BB2F /* menu_tum_cati.png */; };
+		042B165F16C8185D00F9BB2F /* menu_urunler.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B165616C8185D00F9BB2F /* menu_urunler.png */; };
+		042B166016C8185D00F9BB2F /* video_30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B165716C8185D00F9BB2F /* video_30x30.png */; };
+		042B167116C8187A00F9BB2F /* ana_sayfa_ev.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166116C8187A00F9BB2F /* ana_sayfa_ev.png */; };
+		042B167216C8187A00F9BB2F /* backgroundSade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B166216C8187A00F9BB2F /* backgroundSade.jpg */; };
+		042B167316C8187A00F9BB2F /* bgEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166316C8187A00F9BB2F /* bgEmpty.png */; };
+		042B167416C8187A00F9BB2F /* distributorlar.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166416C8187A00F9BB2F /* distributorlar.png */; };
+		042B167516C8187A00F9BB2F /* geri.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166516C8187A00F9BB2F /* geri.png */; };
+		042B167616C8187A00F9BB2F /* iletisim.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166616C8187A00F9BB2F /* iletisim.png */; };
+		042B167716C8187A00F9BB2F /* kalite.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166716C8187A00F9BB2F /* kalite.png */; };
+		042B167816C8187A00F9BB2F /* kilicoglu_yetkilileri.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166816C8187A00F9BB2F /* kilicoglu_yetkilileri.png */; };
+		042B167916C8187A00F9BB2F /* kurumsal_birlesik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166916C8187A00F9BB2F /* kurumsal_birlesik.png */; };
+		042B167A16C8187A00F9BB2F /* kurumsal-video.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166A16C8187A00F9BB2F /* kurumsal-video.png */; };
+		042B167B16C8187A00F9BB2F /* pl_close_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166B16C8187A00F9BB2F /* pl_close_button.png */; };
+		042B167C16C8187A00F9BB2F /* şirket-profili.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166C16C8187A00F9BB2F /* şirket-profili.png */; };
+		042B167D16C8187A00F9BB2F /* tarihce.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166D16C8187A00F9BB2F /* tarihce.png */; };
+		042B167E16C8187A00F9BB2F /* tum_cati_gorseli.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166E16C8187A00F9BB2F /* tum_cati_gorseli.png */; };
+		042B167F16C8187A00F9BB2F /* ust_baslik.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B166F16C8187A00F9BB2F /* ust_baslik.png */; };
+		042B168016C8187A00F9BB2F /* yetkili_servisler.png in Resources */ = {isa = PBXBuildFile; fileRef = 042B167016C8187A00F9BB2F /* yetkili_servisler.png */; };
+		042B168A16C8196800F9BB2F /* 1bt_4faba87412b7e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168116C8196800F9BB2F /* 1bt_4faba87412b7e.jpg */; };
+		042B168B16C8196800F9BB2F /* 2bt_4ef42afbd1adf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168216C8196800F9BB2F /* 2bt_4ef42afbd1adf.jpg */; };
+		042B168C16C8196800F9BB2F /* 3bt_4fab799f9d6f9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168316C8196800F9BB2F /* 3bt_4fab799f9d6f9.jpg */; };
+		042B168D16C8196800F9BB2F /* 4bt_4ccfd642a2040.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168416C8196800F9BB2F /* 4bt_4ccfd642a2040.jpg */; };
+		042B168E16C8196800F9BB2F /* 5bt_4fab7a39de03b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168516C8196800F9BB2F /* 5bt_4fab7a39de03b.jpg */; };
+		042B168F16C8196800F9BB2F /* 6bt_4ccfe7ce0bd86.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168616C8196800F9BB2F /* 6bt_4ccfe7ce0bd86.jpg */; };
+		042B169016C8196800F9BB2F /* 7bt_4ccfe7c2e832f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168716C8196800F9BB2F /* 7bt_4ccfe7c2e832f.jpg */; };
+		042B169116C8196800F9BB2F /* 8bt_506c424c281d6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168816C8196800F9BB2F /* 8bt_506c424c281d6.jpg */; };
+		042B169216C8196800F9BB2F /* 9bt_4ccfe7a89f796.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042B168916C8196800F9BB2F /* 9bt_4ccfe7a89f796.jpg */; };
+		04300BBF16B08E6D0024FBA4 /* FotoGaleriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04300BBE16B08E6D0024FBA4 /* FotoGaleriViewController.m */; };
+		0431D5501641A94100076176 /* PopupItemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431D54F1641A94100076176 /* PopupItemObject.m */; };
+		04390F9C1657CDE100C37A5A /* UrunUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04390F9B1657CDE100C37A5A /* UrunUtil.m */; };
+		0445EF0D164D9B1500121ED5 /* FotoGallerySlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 0445EF0C164D9B1500121ED5 /* FotoGallerySlide.m */; };
+		0445FD911662CB0000834F26 /* TeknikcizimlerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0445FD901662CB0000834F26 /* TeknikcizimlerNavigationController.m */; };
+		0445FD941662D77800834F26 /* KurumsalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0445FD931662D77800834F26 /* KurumsalNavigationController.m */; };
+		044ADEA2164EC5CC007D04AB /* TumUrunlerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044ADEA1164EC5CC007D04AB /* TumUrunlerNavigationController.m */; };
+		044DB16816712968004AC89C /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044DB16716712968004AC89C /* ContactViewController.m */; };
+		04529D87165193A6002BD620 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04529D86165193A6002BD620 /* AssetsLibrary.framework */; };
+		04529D8E1651AC92002BD620 /* PhotoGallery.m in Sources */ = {isa = PBXBuildFile; fileRef = 04529D8D1651AC92002BD620 /* PhotoGallery.m */; };
+		04529D911651ACBA002BD620 /* PhotoGalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04529D901651ACBA002BD620 /* PhotoGalleryCell.m */; };
+		0455B41F164059BE00838E64 /* PopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455B41E164059BE00838E64 /* PopupMenu.m */; };
+		0455B42216405A1400838E64 /* PopupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455B42116405A1400838E64 /* PopupItem.m */; };
+		046DB36E1643A25C00B1C110 /* MainUrunlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DB36D1643A25C00B1C110 /* MainUrunlerViewController.m */; };
+		046DB3891643A89900B1C110 /* UrunCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DB3881643A89900B1C110 /* UrunCustomCell.m */; };
+		0475801A169C9D3500C1B492 /* FotoSliderViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04758019169C9D3500C1B492 /* FotoSliderViewViewController.m */; };
+		047E18311642E27100E41A5C /* UrunDetayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E18301642E27100E41A5C /* UrunDetayViewController.m */; };
+		047E18421642E89500E41A5C /* UrunDetayOb.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E18411642E89500E41A5C /* UrunDetayOb.m */; };
+		04804CE1164B7C480098B35E /* FotoGaleri.m in Sources */ = {isa = PBXBuildFile; fileRef = 04804CE0164B7C480098B35E /* FotoGaleri.m */; };
+		0484D3F5163F033E00E40179 /* UrunListContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484D3F4163F033E00E40179 /* UrunListContainerViewController.m */; };
+		048ED509166572350089948E /* 1bt_4faba88279a0a.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED508166572350089948E /* 1bt_4faba88279a0a.pdf */; };
+		048ED50B1665723A0089948E /* 2bt_4fab79d06f018.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED50A1665723A0089948E /* 2bt_4fab79d06f018.pdf */; };
+		048ED50D166572600089948E /* 4bt_4e520d6f5a755.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED50C166572600089948E /* 4bt_4e520d6f5a755.pdf */; };
+		048ED50F166572660089948E /* 5bt_4fab79ed8f877.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED50E166572660089948E /* 5bt_4fab79ed8f877.pdf */; };
+		048ED511166572710089948E /* 7bt_4ccfd163b5aa3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED510166572710089948E /* 7bt_4ccfd163b5aa3.pdf */; };
+		048ED513166572770089948E /* 9bt_4ccfccfa266fe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED512166572770089948E /* 9bt_4ccfccfa266fe.pdf */; };
+		048ED517166572EB0089948E /* 3bt_4fab7961e3bd8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED516166572EB0089948E /* 3bt_4fab7961e3bd8.pdf */; };
+		048ED519166573210089948E /* 6bt_4ccfd1d5cf725.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED518166573210089948E /* 6bt_4ccfd1d5cf725.pdf */; };
+		048ED51B166573460089948E /* 8bt_506bf6422ab06.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 048ED51A166573460089948E /* 8bt_506bf6422ab06.pdf */; };
+		048ED53116657E2E0089948E /* BrosurlerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ED53016657E2E0089948E /* BrosurlerCollectionViewController.m */; };
+		048ED534166584510089948E /* BrosurCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ED533166584510089948E /* BrosurCell.m */; };
+		048ED53716658C1E0089948E /* PDFUIViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ED53616658C1E0089948E /* PDFUIViewViewController.m */; };
+		04A3C31C169B32E50093F918 /* FotoGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C31B169B32E50093F918 /* FotoGalleryView.m */; };
+		04A3C32A169B65940093F918 /* VideolarNavigationcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C329169B65940093F918 /* VideolarNavigationcontroller.m */; };
+		04A3C32D169B65AC0093F918 /* VideolarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C32C169B65AC0093F918 /* VideolarViewController.m */; };
+		04A3C331169B662A0093F918 /* VideolarCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C330169B662A0093F918 /* VideolarCollectionViewController.m */; };
+		04A3C334169B664D0093F918 /* videolarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C333169B664D0093F918 /* videolarCell.m */; };
+		04E3CC66164ADFDB00FBCB91 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3CC65164ADFDB00FBCB91 /* VideoViewController.m */; };
+		04E3CC72164AEFB600FBCB91 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3CC71164AEFB600FBCB91 /* MediaPlayer.framework */; };
+		04E794E81672890C001F1504 /* MyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E794E71672890C001F1504 /* MyFlowLayout.m */; };
+		04F665B9163EA02E00EF65E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F665B8163EA02E00EF65E0 /* UIKit.framework */; };
+		04F665BB163EA02E00EF65E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F665BA163EA02E00EF65E0 /* Foundation.framework */; };
+		04F665BD163EA02E00EF65E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F665BC163EA02E00EF65E0 /* CoreGraphics.framework */; };
+		04F665C3163EA02F00EF65E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F665C1163EA02F00EF65E0 /* InfoPlist.strings */; };
+		04F665C5163EA02F00EF65E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F665C4163EA02F00EF65E0 /* main.m */; };
+		04F665C9163EA02F00EF65E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F665C8163EA02F00EF65E0 /* AppDelegate.m */; };
+		04F665CB163EA02F00EF65E0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F665CA163EA02F00EF65E0 /* Default.png */; };
+		04F665CD163EA02F00EF65E0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F665CC163EA02F00EF65E0 /* Default@2x.png */; };
+		04F665CF163EA02F00EF65E0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F665CE163EA02F00EF65E0 /* Default-568h@2x.png */; };
+		04F665D2163EA02F00EF65E0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F665D0163EA02F00EF65E0 /* MainStoryboard.storyboard */; };
+		04F66632163EA59100EF65E0 /* KurumsalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66631163EA59100EF65E0 /* KurumsalViewController.m */; };
+		04F66635163EA5A600EF65E0 /* UrunlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66634163EA5A600EF65E0 /* UrunlerViewController.m */; };
+		04F6663E163EA5F700EF65E0 /* BrosurlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F6663D163EA5F700EF65E0 /* BrosurlerViewController.m */; };
+		04F66641163EA60E00EF65E0 /* TeknikCizimlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66640163EA60E00EF65E0 /* TeknikCizimlerViewController.m */; };
+		04F66644163EA62B00EF65E0 /* IletisimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66643163EA62B00EF65E0 /* IletisimViewController.m */; };
+		04F66647163EA65A00EF65E0 /* AnasayfaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66646163EA65A00EF65E0 /* AnasayfaViewController.m */; };
+		04F6664A163EA68700EF65E0 /* TumUrunlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66649163EA68700EF65E0 /* TumUrunlerViewController.m */; };
+		04F6664E163EAB1300EF65E0 /* UrunGroupCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F6664D163EAB1300EF65E0 /* UrunGroupCollectionViewController.m */; };
+		04F66651163EAB2C00EF65E0 /* UrunCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66650163EAB2C00EF65E0 /* UrunCollectionViewController.m */; };
+		04F66654163EAB5700EF65E0 /* UrunGroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66653163EAB5700EF65E0 /* UrunGroupViewCell.m */; };
+		04F66657163EAB6E00EF65E0 /* UrunViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F66656163EAB6E00EF65E0 /* UrunViewCell.m */; };
+		04F6665B163EAD3300EF65E0 /* UrunlerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F6665A163EAD3300EF65E0 /* UrunlerNavigationController.m */; };
+		04F6665E163EAD5500EF65E0 /* AnasayfaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F6665D163EAD5500EF65E0 /* AnasayfaNavigationController.m */; };
+		04FCD3091664282900A132E0 /* BrosurlerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FCD3081664282900A132E0 /* BrosurlerNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0406AC26164F0CBE008B97D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0414F04B1699E3CC000176BB /* app_icon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon72x72.png; sourceTree = "<group>"; };
+		0414F04E1699E3D4000176BB /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		042B150916C8145300F9BB2F /* distributorlar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = distributorlar1.png; path = images/iletisim/distributorlar1.png; sourceTree = "<group>"; };
+		042B150A16C8145300F9BB2F /* iletisim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iletisim1.png; path = images/iletisim/iletisim1.png; sourceTree = "<group>"; };
+		042B150B16C8145300F9BB2F /* kilicoglil1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kilicoglil1.png; path = images/iletisim/kilicoglil1.png; sourceTree = "<group>"; };
+		042B150C16C8145300F9BB2F /* kilicoglu_yetkilileri1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kilicoglu_yetkilileri1.png; path = images/iletisim/kilicoglu_yetkilileri1.png; sourceTree = "<group>"; };
+		042B150D16C8145300F9BB2F /* kilicoglu_yetkilileri2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kilicoglu_yetkilileri2.png; path = images/iletisim/kilicoglu_yetkilileri2.png; sourceTree = "<group>"; };
+		042B150E16C8145300F9BB2F /* kılıçoglu_dist1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kılıçoglu_dist1.png"; path = "images/iletisim/kılıçoglu_dist1.png"; sourceTree = "<group>"; };
+		042B150F16C8145300F9BB2F /* kılıçoglu_yetkili_servis1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kılıçoglu_yetkili_servis1.png"; path = "images/iletisim/kılıçoglu_yetkili_servis1.png"; sourceTree = "<group>"; };
+		042B151016C8145300F9BB2F /* yetkili_servisler1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yetkili_servisler1.png; path = images/iletisim/yetkili_servisler1.png; sourceTree = "<group>"; };
+		042B151916C814D800F9BB2F /* tum_cati_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tum_cati_new.png; path = images/tumUrunlerView/tum_cati_new.png; sourceTree = "<group>"; };
+		042B151B16C814F800F9BB2F /* gunes_paneli_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gunes_paneli_birlesik.png; path = images/urunler/gunespaneli/gunes_paneli_birlesik.png; sourceTree = "<group>"; };
+		042B151C16C814F800F9BB2F /* gunes_panelleri_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gunes_panelleri_baslik.png; path = images/urunler/gunespaneli/gunes_panelleri_baslik.png; sourceTree = "<group>"; };
+		042B151F16C8150800F9BB2F /* yagmur_indirme_genel_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yagmur_indirme_genel_baslik.png; path = images/urunler/yamurindirme/yagmur_indirme_genel_baslik.png; sourceTree = "<group>"; };
+		042B152016C8150800F9BB2F /* yagmur_indirme_genel_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yagmur_indirme_genel_birlesik.png; path = images/urunler/yamurindirme/yagmur_indirme_genel_birlesik.png; sourceTree = "<group>"; };
+		042B152316C8151600F9BB2F /* kiremit_levhasi_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiremit_levhasi_baslik.png; path = images/urunler/kiremitLevhasi/kiremit_levhasi_baslik.png; sourceTree = "<group>"; };
+		042B152416C8151600F9BB2F /* kiremit_levhasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiremit_levhasi.png; path = images/urunler/kiremitLevhasi/kiremit_levhasi.png; sourceTree = "<group>"; };
+		042B152716C8152B00F9BB2F /* kiremit_irmigi_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiremit_irmigi_baslik.png; path = images/urunler/kiremitirmigi/kiremit_irmigi_baslik.png; sourceTree = "<group>"; };
+		042B152816C8152B00F9BB2F /* kiremit_irmigi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiremit_irmigi.png; path = images/urunler/kiremitirmigi/kiremit_irmigi.png; sourceTree = "<group>"; };
+		042B152B16C8158800F9BB2F /* detay_cozumleri_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detay_cozumleri_baslik.png; path = images/urunler/isiYalitim/detay_cozumleri_baslik.png; sourceTree = "<group>"; };
+		042B152C16C8158800F9BB2F /* detay_cozumleri_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detay_cozumleri_birlesik.png; path = images/urunler/isiYalitim/detay_cozumleri_birlesik.png; sourceTree = "<group>"; };
+		042B152D16C8158800F9BB2F /* detay_cozumleri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detay_cozumleri.png; path = images/urunler/isiYalitim/detay_cozumleri.png; sourceTree = "<group>"; };
+		042B152E16C8158800F9BB2F /* dubeller_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dubeller_baslik.png; path = images/urunler/isiYalitim/dubeller_baslik.png; sourceTree = "<group>"; };
+		042B152F16C8158800F9BB2F /* dubeller_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dubeller_birlesik.png; path = images/urunler/isiYalitim/dubeller_birlesik.png; sourceTree = "<group>"; };
+		042B153016C8158800F9BB2F /* dubeller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dubeller.png; path = images/urunler/isiYalitim/dubeller.png; sourceTree = "<group>"; };
+		042B153116C8158800F9BB2F /* isi_yalitim_levhasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isi_yalitim_levhasi.png; path = images/urunler/isiYalitim/isi_yalitim_levhasi.png; sourceTree = "<group>"; };
+		042B153216C8158800F9BB2F /* kaplama_Astari_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaplama_Astari_baslik.png; path = images/urunler/isiYalitim/kaplama_Astari_baslik.png; sourceTree = "<group>"; };
+		042B153316C8158800F9BB2F /* kaplama_Astari_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaplama_Astari_birlesik.png; path = images/urunler/isiYalitim/kaplama_Astari_birlesik.png; sourceTree = "<group>"; };
+		042B153416C8158800F9BB2F /* kaplama_astari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaplama_astari.png; path = images/urunler/isiYalitim/kaplama_astari.png; sourceTree = "<group>"; };
+		042B153516C8158800F9BB2F /* levha_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = levha_baslik.png; path = images/urunler/isiYalitim/levha_baslik.png; sourceTree = "<group>"; };
+		042B153616C8158800F9BB2F /* levha_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = levha_birlesik.png; path = images/urunler/isiYalitim/levha_birlesik.png; sourceTree = "<group>"; };
+		042B153716C8158800F9BB2F /* mineral_siva_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mineral_siva_baslik.png; path = images/urunler/isiYalitim/mineral_siva_baslik.png; sourceTree = "<group>"; };
+		042B153816C8158800F9BB2F /* mineral_siva_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mineral_siva_birlesik.png; path = images/urunler/isiYalitim/mineral_siva_birlesik.png; sourceTree = "<group>"; };
+		042B153916C8158800F9BB2F /* mineral_siva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mineral_siva.png; path = images/urunler/isiYalitim/mineral_siva.png; sourceTree = "<group>"; };
+		042B153A16C8158800F9BB2F /* siva_filesi_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = siva_filesi_baslik.png; path = images/urunler/isiYalitim/siva_filesi_baslik.png; sourceTree = "<group>"; };
+		042B153B16C8158800F9BB2F /* siva_filesi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = siva_filesi_birlesik.png; path = images/urunler/isiYalitim/siva_filesi_birlesik.png; sourceTree = "<group>"; };
+		042B153C16C8158800F9BB2F /* siva_filesi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = siva_filesi.png; path = images/urunler/isiYalitim/siva_filesi.png; sourceTree = "<group>"; };
+		042B153D16C8158800F9BB2F /* siva_harci_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = siva_harci_baslik.png; path = images/urunler/isiYalitim/siva_harci_baslik.png; sourceTree = "<group>"; };
+		042B153E16C8158800F9BB2F /* siva_harci_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = siva_harci_birlesik.png; path = images/urunler/isiYalitim/siva_harci_birlesik.png; sourceTree = "<group>"; };
+		042B153F16C8158800F9BB2F /* siva_harci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = siva_harci.png; path = images/urunler/isiYalitim/siva_harci.png; sourceTree = "<group>"; };
+		042B154016C8158800F9BB2F /* yapistirma_harci_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yapistirma_harci_baslik.png; path = images/urunler/isiYalitim/yapistirma_harci_baslik.png; sourceTree = "<group>"; };
+		042B154116C8158800F9BB2F /* yapistirma_harci_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yapistirma_harci_birlesik.png; path = images/urunler/isiYalitim/yapistirma_harci_birlesik.png; sourceTree = "<group>"; };
+		042B154216C8158800F9BB2F /* yapistirma_harci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yapistirma_harci.png; path = images/urunler/isiYalitim/yapistirma_harci.png; sourceTree = "<group>"; };
+		042B155B16C815AF00F9BB2F /* ates_tugla_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ates_tugla_baslik.png; path = images/urunler/tuglalar/ates_tugla_baslik.png; sourceTree = "<group>"; };
+		042B155C16C815AF00F9BB2F /* ates_tugla_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ates_tugla_birlesik.png; path = images/urunler/tuglalar/ates_tugla_birlesik.png; sourceTree = "<group>"; };
+		042B155D16C815AF00F9BB2F /* ates_tugla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ates_tugla.png; path = images/urunler/tuglalar/ates_tugla.png; sourceTree = "<group>"; };
+		042B155E16C815AF00F9BB2F /* cephe_doseme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cephe_doseme.png; path = images/urunler/tuglalar/cephe_doseme.png; sourceTree = "<group>"; };
+		042B155F16C815AF00F9BB2F /* cephe_kaplama_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cephe_kaplama_baslik.png; path = images/urunler/tuglalar/cephe_kaplama_baslik.png; sourceTree = "<group>"; };
+		042B156016C815AF00F9BB2F /* cephe_kaplama_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cephe_kaplama_birlesik.png; path = images/urunler/tuglalar/cephe_kaplama_birlesik.png; sourceTree = "<group>"; };
+		042B156116C815AF00F9BB2F /* nt_tugla_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nt_tugla_baslik.png; path = images/urunler/tuglalar/nt_tugla_baslik.png; sourceTree = "<group>"; };
+		042B156216C815AF00F9BB2F /* nt_tugla_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nt_tugla_birlesik.png; path = images/urunler/tuglalar/nt_tugla_birlesik.png; sourceTree = "<group>"; };
+		042B156316C815AF00F9BB2F /* nt_tugla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nt_tugla.png; path = images/urunler/tuglalar/nt_tugla.png; sourceTree = "<group>"; };
+		042B156416C815AF00F9BB2F /* taban_doseme_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taban_doseme_birlesik.png; path = images/urunler/tuglalar/taban_doseme_birlesik.png; sourceTree = "<group>"; };
+		042B156516C815AF00F9BB2F /* taban_doseme_tugla_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taban_doseme_tugla_baslik.png; path = images/urunler/tuglalar/taban_doseme_tugla_baslik.png; sourceTree = "<group>"; };
+		042B156616C815AF00F9BB2F /* taban_doseme_tuglasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taban_doseme_tuglasi.png; path = images/urunler/tuglalar/taban_doseme_tuglasi.png; sourceTree = "<group>"; };
+		042B157316C815CD00F9BB2F /* cati_cikis_kapagi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_cikis_kapagi_birlesik.png; path = images/urunler/catipencere/cati_cikis_kapagi_birlesik.png; sourceTree = "<group>"; };
+		042B157416C815CD00F9BB2F /* cati_cikis_kapagi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_cikis_kapagi.png; path = images/urunler/catipencere/cati_cikis_kapagi.png; sourceTree = "<group>"; };
+		042B157516C815CD00F9BB2F /* cati_cikis_kapak_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_cikis_kapak_baslik.png; path = images/urunler/catipencere/cati_cikis_kapak_baslik.png; sourceTree = "<group>"; };
+		042B157616C815CD00F9BB2F /* cati_cikis_merdiveni_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_cikis_merdiveni_baslik.png; path = images/urunler/catipencere/cati_cikis_merdiveni_baslik.png; sourceTree = "<group>"; };
+		042B157716C815CD00F9BB2F /* cati_cikis_merdiveni_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_cikis_merdiveni_birlesik.png; path = images/urunler/catipencere/cati_cikis_merdiveni_birlesik.png; sourceTree = "<group>"; };
+		042B157816C815CD00F9BB2F /* cati_cikis_merdiveni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_cikis_merdiveni.png; path = images/urunler/catipencere/cati_cikis_merdiveni.png; sourceTree = "<group>"; };
+		042B157916C815CD00F9BB2F /* cati_penceresi_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_penceresi_baslik.png; path = images/urunler/catipencere/cati_penceresi_baslik.png; sourceTree = "<group>"; };
+		042B157A16C815CD00F9BB2F /* cati_penceresi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_penceresi_birlesik.png; path = images/urunler/catipencere/cati_penceresi_birlesik.png; sourceTree = "<group>"; };
+		042B157B16C815CD00F9BB2F /* cati_penceresi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cati_penceresi.png; path = images/urunler/catipencere/cati_penceresi.png; sourceTree = "<group>"; };
+		042B158516C8178700F9BB2F /* baca_fleks_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baca_fleks_baslik.png; path = images/urunler/catiSistemleri/baca_fleks_baslik.png; sourceTree = "<group>"; };
+		042B158616C8178700F9BB2F /* baca_sapkasi_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baca_sapkasi_baslik.png; path = images/urunler/catiSistemleri/baca_sapkasi_baslik.png; sourceTree = "<group>"; };
+		042B158716C8178700F9BB2F /* baca_sapkasi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baca_sapkasi_birlesik.png; path = images/urunler/catiSistemleri/baca_sapkasi_birlesik.png; sourceTree = "<group>"; };
+		042B158816C8178700F9BB2F /* baca_sapkasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baca_sapkasi.png; path = images/urunler/catiSistemleri/baca_sapkasi.png; sourceTree = "<group>"; };
+		042B158916C8178700F9BB2F /* bacafleks_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacafleks_birlesik.png; path = images/urunler/catiSistemleri/bacafleks_birlesik.png; sourceTree = "<group>"; };
+		042B158A16C8178700F9BB2F /* bacafleks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacafleks.png; path = images/urunler/catiSistemleri/bacafleks.png; sourceTree = "<group>"; };
+		042B158B16C8178700F9BB2F /* bacaser_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacaser_baslik.png; path = images/urunler/catiSistemleri/bacaser_baslik.png; sourceTree = "<group>"; };
+		042B158C16C8178700F9BB2F /* bacaser_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacaser_birlesik.png; path = images/urunler/catiSistemleri/bacaser_birlesik.png; sourceTree = "<group>"; };
+		042B158D16C8178700F9BB2F /* bacaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacaser.png; path = images/urunler/catiSistemleri/bacaser.png; sourceTree = "<group>"; };
+		042B158E16C8178700F9BB2F /* bacaveduvar_dibi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bacaveduvar_dibi.png; path = images/urunler/catiSistemleri/bacaveduvar_dibi.png; sourceTree = "<group>"; };
+		042B158F16C8178700F9BB2F /* baski_citasi_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baski_citasi_baslik.png; path = images/urunler/catiSistemleri/baski_citasi_baslik.png; sourceTree = "<group>"; };
+		042B159016C8178700F9BB2F /* baski_citasi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baski_citasi_birlesik.png; path = images/urunler/catiSistemleri/baski_citasi_birlesik.png; sourceTree = "<group>"; };
+		042B159116C8178700F9BB2F /* baski_citasi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baski_citasi.png; path = images/urunler/catiSistemleri/baski_citasi.png; sourceTree = "<group>"; };
+		042B159216C8178700F9BB2F /* castiser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = castiser.png; path = images/urunler/catiSistemleri/castiser.png; sourceTree = "<group>"; };
+		042B159316C8178700F9BB2F /* catifiks_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catifiks_baslik.png; path = images/urunler/catiSistemleri/catifiks_baslik.png; sourceTree = "<group>"; };
+		042B159416C8178700F9BB2F /* catifiks_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catifiks_birlesik.png; path = images/urunler/catiSistemleri/catifiks_birlesik.png; sourceTree = "<group>"; };
+		042B159516C8178700F9BB2F /* catifiks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catifiks.png; path = images/urunler/catiSistemleri/catifiks.png; sourceTree = "<group>"; };
+		042B159616C8178700F9BB2F /* catise_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catise_baslik.png; path = images/urunler/catiSistemleri/catise_baslik.png; sourceTree = "<group>"; };
+		042B159716C8178700F9BB2F /* catiser_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiser_birlesik.png; path = images/urunler/catiSistemleri/catiser_birlesik.png; sourceTree = "<group>"; };
+		042B159816C8178700F9BB2F /* catiser_plus_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiser_plus_baslik.png; path = images/urunler/catiSistemleri/catiser_plus_baslik.png; sourceTree = "<group>"; };
+		042B159916C8178700F9BB2F /* catiser_plus_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiser_plus_birlesik.png; path = images/urunler/catiSistemleri/catiser_plus_birlesik.png; sourceTree = "<group>"; };
+		042B159A16C8178700F9BB2F /* catiser_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiser_plus.png; path = images/urunler/catiSistemleri/catiser_plus.png; sourceTree = "<group>"; };
+		042B159B16C8178700F9BB2F /* catiser_reflektif_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiser_reflektif_baslik.png; path = images/urunler/catiSistemleri/catiser_reflektif_baslik.png; sourceTree = "<group>"; };
+		042B159C16C8178700F9BB2F /* catiser_reflektif_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiser_reflektif_birlesik.png; path = images/urunler/catiSistemleri/catiser_reflektif_birlesik.png; sourceTree = "<group>"; };
+		042B159D16C8178700F9BB2F /* catiser_reflektif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiser_reflektif.png; path = images/urunler/catiSistemleri/catiser_reflektif.png; sourceTree = "<group>"; };
+		042B159E16C8178700F9BB2F /* catiser_yp_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiser_yp_baslik.png; path = images/urunler/catiSistemleri/catiser_yp_baslik.png; sourceTree = "<group>"; };
+		042B159F16C8178700F9BB2F /* catiseryp_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catiseryp_birlesik.png; path = images/urunler/catiSistemleri/catiseryp_birlesik.png; sourceTree = "<group>"; };
+		042B15A016C8178700F9BB2F /* cstiser_yp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cstiser_yp.png; path = images/urunler/catiSistemleri/cstiser_yp.png; sourceTree = "<group>"; };
+		042B15A116C8178700F9BB2F /* deay_cozumleri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deay_cozumleri.png; path = images/urunler/catiSistemleri/deay_cozumleri.png; sourceTree = "<group>"; };
+		042B15A216C8178700F9BB2F /* dere_detayi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dere_detayi.png; path = images/urunler/catiSistemleri/dere_detayi.png; sourceTree = "<group>"; };
+		042B15A316C8178700F9BB2F /* dereser_aliminyum_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dereser_aliminyum_baslik.png; path = images/urunler/catiSistemleri/dereser_aliminyum_baslik.png; sourceTree = "<group>"; };
+		042B15A416C8178700F9BB2F /* dereser_aluminyum_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dereser_aluminyum_birlesik.png; path = images/urunler/catiSistemleri/dereser_aluminyum_birlesik.png; sourceTree = "<group>"; };
+		042B15A516C8178700F9BB2F /* dereser_aluminyum1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dereser_aluminyum1.png; path = images/urunler/catiSistemleri/dereser_aluminyum1.png; sourceTree = "<group>"; };
+		042B15A616C8178700F9BB2F /* dereser_aluminyum2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dereser_aluminyum2.png; path = images/urunler/catiSistemleri/dereser_aluminyum2.png; sourceTree = "<group>"; };
+		042B15A716C8178700F9BB2F /* dereser_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dereser_baslik.png; path = images/urunler/catiSistemleri/dereser_baslik.png; sourceTree = "<group>"; };
+		042B15A816C8178700F9BB2F /* dereser_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dereser_birlesik.png; path = images/urunler/catiSistemleri/dereser_birlesik.png; sourceTree = "<group>"; };
+		042B15A916C8178700F9BB2F /* dereser_pvc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dereser_pvc1.png; path = images/urunler/catiSistemleri/dereser_pvc1.png; sourceTree = "<group>"; };
+		042B15AA16C8178700F9BB2F /* dereser_pvc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dereser_pvc2.png; path = images/urunler/catiSistemleri/dereser_pvc2.png; sourceTree = "<group>"; };
+		042B15AB16C8178700F9BB2F /* detay_cozumleri_baslik_cati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detay_cozumleri_baslik_cati.png; path = images/urunler/catiSistemleri/detay_cozumleri_baslik_cati.png; sourceTree = "<group>"; };
+		042B15AC16C8178700F9BB2F /* detay_cozumleri_birlesik_cati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detay_cozumleri_birlesik_cati.png; path = images/urunler/catiSistemleri/detay_cozumleri_birlesik_cati.png; sourceTree = "<group>"; };
+		042B15AD16C8178700F9BB2F /* havalandirma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = havalandirma.png; path = images/urunler/catiSistemleri/havalandirma.png; sourceTree = "<group>"; };
+		042B15AE16C8178700F9BB2F /* isivesuyalitim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isivesuyalitim.png; path = images/urunler/catiSistemleri/isivesuyalitim.png; sourceTree = "<group>"; };
+		042B15AF16C8178700F9BB2F /* izocati_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = izocati_baslik.png; path = images/urunler/catiSistemleri/izocati_baslik.png; sourceTree = "<group>"; };
+		042B15B016C8178700F9BB2F /* izocati_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = izocati_birlesik.png; path = images/urunler/catiSistemleri/izocati_birlesik.png; sourceTree = "<group>"; };
+		042B15B116C8178700F9BB2F /* izocati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = izocati.png; path = images/urunler/catiSistemleri/izocati.png; sourceTree = "<group>"; };
+		042B15B216C8178700F9BB2F /* mahya_alti_cozumleri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mahya_alti_cozumleri.png; path = images/urunler/catiSistemleri/mahya_alti_cozumleri.png; sourceTree = "<group>"; };
+		042B15B316C8178700F9BB2F /* mahya_montaj_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mahya_montaj_baslik.png; path = images/urunler/catiSistemleri/mahya_montaj_baslik.png; sourceTree = "<group>"; };
+		042B15B416C8178700F9BB2F /* mahya_montaj_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mahya_montaj_birlesik.png; path = images/urunler/catiSistemleri/mahya_montaj_birlesik.png; sourceTree = "<group>"; };
+		042B15B516C8178700F9BB2F /* mahya_montaj_harci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mahya_montaj_harci.png; path = images/urunler/catiSistemleri/mahya_montaj_harci.png; sourceTree = "<group>"; };
+		042B15B616C8178700F9BB2F /* mahyaser_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mahyaser_baslik.png; path = images/urunler/catiSistemleri/mahyaser_baslik.png; sourceTree = "<group>"; };
+		042B15B716C8178700F9BB2F /* mahyaser_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mahyaser_birlesik.png; path = images/urunler/catiSistemleri/mahyaser_birlesik.png; sourceTree = "<group>"; };
+		042B15B816C8178700F9BB2F /* mahyaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mahyaser.png; path = images/urunler/catiSistemleri/mahyaser.png; sourceTree = "<group>"; };
+		042B15B916C8178700F9BB2F /* sacak_havalandirma_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sacak_havalandirma_baslik.png; path = images/urunler/catiSistemleri/sacak_havalandirma_baslik.png; sourceTree = "<group>"; };
+		042B15BA16C8178700F9BB2F /* sacak_havalandirma_taragi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sacak_havalandirma_taragi_birlesik.png; path = images/urunler/catiSistemleri/sacak_havalandirma_taragi_birlesik.png; sourceTree = "<group>"; };
+		042B15BB16C8178700F9BB2F /* sacak_havalandirma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sacak_havalandirma.png; path = images/urunler/catiSistemleri/sacak_havalandirma.png; sourceTree = "<group>"; };
+		042B15BC16C8178700F9BB2F /* universal_havalandirma_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = universal_havalandirma_baslik.png; path = images/urunler/catiSistemleri/universal_havalandirma_baslik.png; sourceTree = "<group>"; };
+		042B15BD16C8178700F9BB2F /* universal_havalandirma_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = universal_havalandirma_birlesik.png; path = images/urunler/catiSistemleri/universal_havalandirma_birlesik.png; sourceTree = "<group>"; };
+		042B15BE16C8178700F9BB2F /* universal_havalandirma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = universal_havalandirma.png; path = images/urunler/catiSistemleri/universal_havalandirma.png; sourceTree = "<group>"; };
+		042B15F916C817E900F9BB2F /* akdeniz_baslik3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = akdeniz_baslik3.png; path = images/urunler/kiremitler/akdeniz_baslik3.png; sourceTree = "<group>"; };
+		042B15FA16C817E900F9BB2F /* akdeniz_birlesik3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = akdeniz_birlesik3.png; path = images/urunler/kiremitler/akdeniz_birlesik3.png; sourceTree = "<group>"; };
+		042B15FB16C817E900F9BB2F /* akdeniz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = akdeniz.png; path = images/urunler/kiremitler/akdeniz.png; sourceTree = "<group>"; };
+		042B15FC16C817E900F9BB2F /* aksesuar_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aksesuar_baslik.png; path = images/urunler/kiremitler/aksesuar_baslik.png; sourceTree = "<group>"; };
+		042B15FD16C817E900F9BB2F /* aksesuar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aksesuar.png; path = images/urunler/kiremitler/aksesuar.png; sourceTree = "<group>"; };
+		042B15FE16C817E900F9BB2F /* aksesuarlar_genel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aksesuarlar_genel.png; path = images/urunler/kiremitler/aksesuarlar_genel.png; sourceTree = "<group>"; };
+		042B15FF16C817E900F9BB2F /* alaturka_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alaturka_baslik.png; path = images/urunler/kiremitler/alaturka_baslik.png; sourceTree = "<group>"; };
+		042B160016C817E900F9BB2F /* alaturka_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alaturka_birlesik.png; path = images/urunler/kiremitler/alaturka_birlesik.png; sourceTree = "<group>"; };
+		042B160116C817E900F9BB2F /* alaturka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alaturka.png; path = images/urunler/kiremitler/alaturka.png; sourceTree = "<group>"; };
+		042B160216C817E900F9BB2F /* anadolu_medeniyetleri_aksesuar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anadolu_medeniyetleri_aksesuar.png; path = images/urunler/kiremitler/anadolu_medeniyetleri_aksesuar.png; sourceTree = "<group>"; };
+		042B160316C817E900F9BB2F /* frigya_atesi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frigya_atesi_birlesik.png; path = images/urunler/kiremitler/frigya_atesi_birlesik.png; sourceTree = "<group>"; };
+		042B160416C817E900F9BB2F /* frigya_atesi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frigya_atesi.png; path = images/urunler/kiremitler/frigya_atesi.png; sourceTree = "<group>"; };
+		042B160516C817E900F9BB2F /* frigya_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frigya_baslik.png; path = images/urunler/kiremitler/frigya_baslik.png; sourceTree = "<group>"; };
+		042B160616C817E900F9BB2F /* granada_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = granada_baslik.png; path = images/urunler/kiremitler/granada_baslik.png; sourceTree = "<group>"; };
+		042B160716C817E900F9BB2F /* granada_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = granada_birlesik.png; path = images/urunler/kiremitler/granada_birlesik.png; sourceTree = "<group>"; };
+		042B160816C817E900F9BB2F /* granada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = granada.png; path = images/urunler/kiremitler/granada.png; sourceTree = "<group>"; };
+		042B160916C817E900F9BB2F /* hitit_atesi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hitit_atesi_birlesik.png; path = images/urunler/kiremitler/hitit_atesi_birlesik.png; sourceTree = "<group>"; };
+		042B160A16C817E900F9BB2F /* hitit_atesi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hitit_atesi.png; path = images/urunler/kiremitler/hitit_atesi.png; sourceTree = "<group>"; };
+		042B160B16C817E900F9BB2F /* hitit_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hitit_baslik.png; path = images/urunler/kiremitler/hitit_baslik.png; sourceTree = "<group>"; };
+		042B160C16C817E900F9BB2F /* kilicoglu_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kilicoglu_baslik.png; path = images/urunler/kiremitler/kilicoglu_baslik.png; sourceTree = "<group>"; };
+		042B160D16C817E900F9BB2F /* kilicoglu1_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kilicoglu1_birlesik.png; path = images/urunler/kiremitler/kilicoglu1_birlesik.png; sourceTree = "<group>"; };
+		042B160E16C817E900F9BB2F /* kilicoglu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kilicoglu1.png; path = images/urunler/kiremitler/kilicoglu1.png; sourceTree = "<group>"; };
+		042B160F16C817E900F9BB2F /* kiremit_levhası_aksesuar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kiremit_levhası_aksesuar.png"; path = "images/urunler/kiremitler/kiremit_levhası_aksesuar.png"; sourceTree = "<group>"; };
+		042B161016C817E900F9BB2F /* truva_atesi_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truva_atesi_birlesik.png; path = images/urunler/kiremitler/truva_atesi_birlesik.png; sourceTree = "<group>"; };
+		042B161116C817E900F9BB2F /* truva_atesi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truva_atesi.png; path = images/urunler/kiremitler/truva_atesi.png; sourceTree = "<group>"; };
+		042B161216C817E900F9BB2F /* truva_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = truva_baslik.png; path = images/urunler/kiremitler/truva_baslik.png; sourceTree = "<group>"; };
+		042B161316C817E900F9BB2F /* valensiya_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = valensiya_baslik.png; path = images/urunler/kiremitler/valensiya_baslik.png; sourceTree = "<group>"; };
+		042B161416C817E900F9BB2F /* valensiya_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = valensiya_birlesik.png; path = images/urunler/kiremitler/valensiya_birlesik.png; sourceTree = "<group>"; };
+		042B161516C817E900F9BB2F /* valensiya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = valensiya.png; path = images/urunler/kiremitler/valensiya.png; sourceTree = "<group>"; };
+		042B161616C817E900F9BB2F /* vertical_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vertical_line.png; path = images/urunler/kiremitler/vertical_line.png; sourceTree = "<group>"; };
+		042B163516C8181600F9BB2F /* catipenceresi_ana_secim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catipenceresi_ana_secim1.png; path = images/menuicons/urunlist/catipenceresi_ana_secim1.png; sourceTree = "<group>"; };
+		042B163616C8181600F9BB2F /* catisistem_ana_secim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = catisistem_ana_secim1.png; path = images/menuicons/urunlist/catisistem_ana_secim1.png; sourceTree = "<group>"; };
+		042B163716C8181600F9BB2F /* gunes_ana_secim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gunes_ana_secim1.png; path = images/menuicons/urunlist/gunes_ana_secim1.png; sourceTree = "<group>"; };
+		042B163816C8181600F9BB2F /* isiyalitim_ana_secim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isiyalitim_ana_secim1.png; path = images/menuicons/urunlist/isiyalitim_ana_secim1.png; sourceTree = "<group>"; };
+		042B163916C8181600F9BB2F /* kiremit_ana_secim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiremit_ana_secim1.png; path = images/menuicons/urunlist/kiremit_ana_secim1.png; sourceTree = "<group>"; };
+		042B163A16C8181600F9BB2F /* kiremitirmigi_ana_secim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiremitirmigi_ana_secim1.png; path = images/menuicons/urunlist/kiremitirmigi_ana_secim1.png; sourceTree = "<group>"; };
+		042B163B16C8181600F9BB2F /* kiremitlevha_seçimsayfaları1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kiremitlevha_seçimsayfaları1.png"; path = "images/menuicons/urunlist/kiremitlevha_seçimsayfaları1.png"; sourceTree = "<group>"; };
+		042B163C16C8181600F9BB2F /* tuglalar_seçimsayfaları1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tuglalar_seçimsayfaları1.png"; path = "images/menuicons/urunlist/tuglalar_seçimsayfaları1.png"; sourceTree = "<group>"; };
+		042B163D16C8181600F9BB2F /* yagmur_ana_secim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yagmur_ana_secim1.png; path = images/menuicons/urunlist/yagmur_ana_secim1.png; sourceTree = "<group>"; };
+		042B164716C8183100F9BB2F /* aksesuar_buton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aksesuar_buton.png; path = images/menuicons/urundetay/aksesuar_buton.png; sourceTree = "<group>"; };
+		042B164816C8183100F9BB2F /* fotograf_buton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fotograf_buton.png; path = images/menuicons/urundetay/fotograf_buton.png; sourceTree = "<group>"; };
+		042B164916C8183100F9BB2F /* uygulama_sekli__buton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uygulama_sekli__buton.png; path = images/menuicons/urundetay/uygulama_sekli__buton.png; sourceTree = "<group>"; };
+		042B164A16C8183100F9BB2F /* uygulamavideo_buton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uygulamavideo_buton.png; path = images/menuicons/urundetay/uygulamavideo_buton.png; sourceTree = "<group>"; };
+		042B164F16C8185D00F9BB2F /* menu_anasayfa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_anasayfa1.png; path = images/menuicons/urunlerM/menu_anasayfa1.png; sourceTree = "<group>"; };
+		042B165016C8185D00F9BB2F /* menu_brosurler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_brosurler.png; path = images/menuicons/urunlerM/menu_brosurler.png; sourceTree = "<group>"; };
+		042B165116C8185D00F9BB2F /* menu_fotogaleri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_fotogaleri.png; path = images/menuicons/urunlerM/menu_fotogaleri.png; sourceTree = "<group>"; };
+		042B165216C8185D00F9BB2F /* menu_iletisim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_iletisim.png; path = images/menuicons/urunlerM/menu_iletisim.png; sourceTree = "<group>"; };
+		042B165316C8185D00F9BB2F /* menu_kurumsal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_kurumsal.png; path = images/menuicons/urunlerM/menu_kurumsal.png; sourceTree = "<group>"; };
+		042B165416C8185D00F9BB2F /* menu_teknik_cizimler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_teknik_cizimler.png; path = images/menuicons/urunlerM/menu_teknik_cizimler.png; sourceTree = "<group>"; };
+		042B165516C8185D00F9BB2F /* menu_tum_cati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_tum_cati.png; path = images/menuicons/urunlerM/menu_tum_cati.png; sourceTree = "<group>"; };
+		042B165616C8185D00F9BB2F /* menu_urunler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_urunler.png; path = images/menuicons/urunlerM/menu_urunler.png; sourceTree = "<group>"; };
+		042B165716C8185D00F9BB2F /* video_30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = video_30x30.png; path = images/menuicons/urunlerM/video_30x30.png; sourceTree = "<group>"; };
+		042B166116C8187A00F9BB2F /* ana_sayfa_ev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ana_sayfa_ev.png; path = images/menuicons/General/ana_sayfa_ev.png; sourceTree = "<group>"; };
+		042B166216C8187A00F9BB2F /* backgroundSade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backgroundSade.jpg; path = images/menuicons/General/backgroundSade.jpg; sourceTree = "<group>"; };
+		042B166316C8187A00F9BB2F /* bgEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgEmpty.png; path = images/menuicons/General/bgEmpty.png; sourceTree = "<group>"; };
+		042B166416C8187A00F9BB2F /* distributorlar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = distributorlar.png; path = images/menuicons/General/distributorlar.png; sourceTree = "<group>"; };
+		042B166516C8187A00F9BB2F /* geri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = geri.png; path = images/menuicons/General/geri.png; sourceTree = "<group>"; };
+		042B166616C8187A00F9BB2F /* iletisim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iletisim.png; path = images/menuicons/General/iletisim.png; sourceTree = "<group>"; };
+		042B166716C8187A00F9BB2F /* kalite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kalite.png; path = images/menuicons/General/kalite.png; sourceTree = "<group>"; };
+		042B166816C8187A00F9BB2F /* kilicoglu_yetkilileri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kilicoglu_yetkilileri.png; path = images/menuicons/General/kilicoglu_yetkilileri.png; sourceTree = "<group>"; };
+		042B166916C8187A00F9BB2F /* kurumsal_birlesik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kurumsal_birlesik.png; path = images/menuicons/General/kurumsal_birlesik.png; sourceTree = "<group>"; };
+		042B166A16C8187A00F9BB2F /* kurumsal-video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kurumsal-video.png"; path = "images/menuicons/General/kurumsal-video.png"; sourceTree = "<group>"; };
+		042B166B16C8187A00F9BB2F /* pl_close_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pl_close_button.png; path = images/menuicons/General/pl_close_button.png; sourceTree = "<group>"; };
+		042B166C16C8187A00F9BB2F /* şirket-profili.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "şirket-profili.png"; path = "images/menuicons/General/şirket-profili.png"; sourceTree = "<group>"; };
+		042B166D16C8187A00F9BB2F /* tarihce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tarihce.png; path = images/menuicons/General/tarihce.png; sourceTree = "<group>"; };
+		042B166E16C8187A00F9BB2F /* tum_cati_gorseli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tum_cati_gorseli.png; path = images/menuicons/General/tum_cati_gorseli.png; sourceTree = "<group>"; };
+		042B166F16C8187A00F9BB2F /* ust_baslik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ust_baslik.png; path = images/menuicons/General/ust_baslik.png; sourceTree = "<group>"; };
+		042B167016C8187A00F9BB2F /* yetkili_servisler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yetkili_servisler.png; path = images/menuicons/General/yetkili_servisler.png; sourceTree = "<group>"; };
+		042B168116C8196800F9BB2F /* 1bt_4faba87412b7e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1bt_4faba87412b7e.jpg; path = "images/pdfıcons/1bt_4faba87412b7e.jpg"; sourceTree = "<group>"; };
+		042B168216C8196800F9BB2F /* 2bt_4ef42afbd1adf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2bt_4ef42afbd1adf.jpg; path = "images/pdfıcons/2bt_4ef42afbd1adf.jpg"; sourceTree = "<group>"; };
+		042B168316C8196800F9BB2F /* 3bt_4fab799f9d6f9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3bt_4fab799f9d6f9.jpg; path = "images/pdfıcons/3bt_4fab799f9d6f9.jpg"; sourceTree = "<group>"; };
+		042B168416C8196800F9BB2F /* 4bt_4ccfd642a2040.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4bt_4ccfd642a2040.jpg; path = "images/pdfıcons/4bt_4ccfd642a2040.jpg"; sourceTree = "<group>"; };
+		042B168516C8196800F9BB2F /* 5bt_4fab7a39de03b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5bt_4fab7a39de03b.jpg; path = "images/pdfıcons/5bt_4fab7a39de03b.jpg"; sourceTree = "<group>"; };
+		042B168616C8196800F9BB2F /* 6bt_4ccfe7ce0bd86.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6bt_4ccfe7ce0bd86.jpg; path = "images/pdfıcons/6bt_4ccfe7ce0bd86.jpg"; sourceTree = "<group>"; };
+		042B168716C8196800F9BB2F /* 7bt_4ccfe7c2e832f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7bt_4ccfe7c2e832f.jpg; path = "images/pdfıcons/7bt_4ccfe7c2e832f.jpg"; sourceTree = "<group>"; };
+		042B168816C8196800F9BB2F /* 8bt_506c424c281d6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8bt_506c424c281d6.jpg; path = "images/pdfıcons/8bt_506c424c281d6.jpg"; sourceTree = "<group>"; };
+		042B168916C8196800F9BB2F /* 9bt_4ccfe7a89f796.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9bt_4ccfe7a89f796.jpg; path = "images/pdfıcons/9bt_4ccfe7a89f796.jpg"; sourceTree = "<group>"; };
+		04300BBD16B08E6D0024FBA4 /* FotoGaleriViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoGaleriViewController.h; sourceTree = "<group>"; };
+		04300BBE16B08E6D0024FBA4 /* FotoGaleriViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoGaleriViewController.m; sourceTree = "<group>"; };
+		0431D54E1641A94100076176 /* PopupItemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupItemObject.h; sourceTree = "<group>"; };
+		0431D54F1641A94100076176 /* PopupItemObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupItemObject.m; sourceTree = "<group>"; };
+		04390F9A1657CDE100C37A5A /* UrunUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunUtil.h; sourceTree = "<group>"; };
+		04390F9B1657CDE100C37A5A /* UrunUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunUtil.m; sourceTree = "<group>"; };
+		0445EF0B164D9B1500121ED5 /* FotoGallerySlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoGallerySlide.h; sourceTree = "<group>"; };
+		0445EF0C164D9B1500121ED5 /* FotoGallerySlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoGallerySlide.m; sourceTree = "<group>"; };
+		0445FD8F1662CB0000834F26 /* TeknikcizimlerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeknikcizimlerNavigationController.h; sourceTree = "<group>"; };
+		0445FD901662CB0000834F26 /* TeknikcizimlerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeknikcizimlerNavigationController.m; sourceTree = "<group>"; };
+		0445FD921662D77800834F26 /* KurumsalNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KurumsalNavigationController.h; sourceTree = "<group>"; };
+		0445FD931662D77800834F26 /* KurumsalNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KurumsalNavigationController.m; sourceTree = "<group>"; };
+		044ADEA0164EC5CC007D04AB /* TumUrunlerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumUrunlerNavigationController.h; sourceTree = "<group>"; };
+		044ADEA1164EC5CC007D04AB /* TumUrunlerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumUrunlerNavigationController.m; sourceTree = "<group>"; };
+		044DB16616712968004AC89C /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		044DB16716712968004AC89C /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		04529D86165193A6002BD620 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		04529D8C1651AC92002BD620 /* PhotoGallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGallery.h; sourceTree = "<group>"; };
+		04529D8D1651AC92002BD620 /* PhotoGallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGallery.m; sourceTree = "<group>"; };
+		04529D8F1651ACBA002BD620 /* PhotoGalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGalleryCell.h; sourceTree = "<group>"; };
+		04529D901651ACBA002BD620 /* PhotoGalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGalleryCell.m; sourceTree = "<group>"; };
+		0455B41D164059BE00838E64 /* PopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupMenu.h; sourceTree = "<group>"; };
+		0455B41E164059BE00838E64 /* PopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupMenu.m; sourceTree = "<group>"; };
+		0455B42016405A1400838E64 /* PopupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupItem.h; sourceTree = "<group>"; };
+		0455B42116405A1400838E64 /* PopupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupItem.m; sourceTree = "<group>"; };
+		046DB36C1643A25C00B1C110 /* MainUrunlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainUrunlerViewController.h; sourceTree = "<group>"; };
+		046DB36D1643A25C00B1C110 /* MainUrunlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainUrunlerViewController.m; sourceTree = "<group>"; };
+		046DB3871643A89900B1C110 /* UrunCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunCustomCell.h; sourceTree = "<group>"; };
+		046DB3881643A89900B1C110 /* UrunCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunCustomCell.m; sourceTree = "<group>"; };
+		04758018169C9D3500C1B492 /* FotoSliderViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoSliderViewViewController.h; sourceTree = "<group>"; };
+		04758019169C9D3500C1B492 /* FotoSliderViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoSliderViewViewController.m; sourceTree = "<group>"; };
+		047E182F1642E27100E41A5C /* UrunDetayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunDetayViewController.h; sourceTree = "<group>"; };
+		047E18301642E27100E41A5C /* UrunDetayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunDetayViewController.m; sourceTree = "<group>"; };
+		047E18401642E89500E41A5C /* UrunDetayOb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunDetayOb.h; sourceTree = "<group>"; };
+		047E18411642E89500E41A5C /* UrunDetayOb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunDetayOb.m; sourceTree = "<group>"; };
+		04804CDF164B7C480098B35E /* FotoGaleri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoGaleri.h; sourceTree = "<group>"; };
+		04804CE0164B7C480098B35E /* FotoGaleri.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoGaleri.m; sourceTree = "<group>"; };
+		0484D3F3163F033E00E40179 /* UrunListContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunListContainerViewController.h; sourceTree = "<group>"; };
+		0484D3F4163F033E00E40179 /* UrunListContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunListContainerViewController.m; sourceTree = "<group>"; };
+		048ED508166572350089948E /* 1bt_4faba88279a0a.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1bt_4faba88279a0a.pdf; sourceTree = "<group>"; };
+		048ED50A1665723A0089948E /* 2bt_4fab79d06f018.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2bt_4fab79d06f018.pdf; sourceTree = "<group>"; };
+		048ED50C166572600089948E /* 4bt_4e520d6f5a755.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 4bt_4e520d6f5a755.pdf; sourceTree = "<group>"; };
+		048ED50E166572660089948E /* 5bt_4fab79ed8f877.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 5bt_4fab79ed8f877.pdf; sourceTree = "<group>"; };
+		048ED510166572710089948E /* 7bt_4ccfd163b5aa3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 7bt_4ccfd163b5aa3.pdf; sourceTree = "<group>"; };
+		048ED512166572770089948E /* 9bt_4ccfccfa266fe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 9bt_4ccfccfa266fe.pdf; sourceTree = "<group>"; };
+		048ED516166572EB0089948E /* 3bt_4fab7961e3bd8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 3bt_4fab7961e3bd8.pdf; sourceTree = "<group>"; };
+		048ED518166573210089948E /* 6bt_4ccfd1d5cf725.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 6bt_4ccfd1d5cf725.pdf; sourceTree = "<group>"; };
+		048ED51A166573460089948E /* 8bt_506bf6422ab06.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 8bt_506bf6422ab06.pdf; sourceTree = "<group>"; };
+		048ED52F16657E2E0089948E /* BrosurlerCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrosurlerCollectionViewController.h; sourceTree = "<group>"; };
+		048ED53016657E2E0089948E /* BrosurlerCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrosurlerCollectionViewController.m; sourceTree = "<group>"; };
+		048ED532166584510089948E /* BrosurCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrosurCell.h; sourceTree = "<group>"; };
+		048ED533166584510089948E /* BrosurCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrosurCell.m; sourceTree = "<group>"; };
+		048ED53516658C1E0089948E /* PDFUIViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFUIViewViewController.h; sourceTree = "<group>"; };
+		048ED53616658C1E0089948E /* PDFUIViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFUIViewViewController.m; sourceTree = "<group>"; };
+		04A3C31A169B32E50093F918 /* FotoGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoGalleryView.h; sourceTree = "<group>"; };
+		04A3C31B169B32E50093F918 /* FotoGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoGalleryView.m; sourceTree = "<group>"; };
+		04A3C328169B65940093F918 /* VideolarNavigationcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideolarNavigationcontroller.h; sourceTree = "<group>"; };
+		04A3C329169B65940093F918 /* VideolarNavigationcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideolarNavigationcontroller.m; sourceTree = "<group>"; };
+		04A3C32B169B65AC0093F918 /* VideolarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideolarViewController.h; sourceTree = "<group>"; };
+		04A3C32C169B65AC0093F918 /* VideolarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideolarViewController.m; sourceTree = "<group>"; };
+		04A3C32F169B662A0093F918 /* VideolarCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideolarCollectionViewController.h; sourceTree = "<group>"; };
+		04A3C330169B662A0093F918 /* VideolarCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideolarCollectionViewController.m; sourceTree = "<group>"; };
+		04A3C332169B664D0093F918 /* videolarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videolarCell.h; sourceTree = "<group>"; };
+		04A3C333169B664D0093F918 /* videolarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videolarCell.m; sourceTree = "<group>"; };
+		04E3CC64164ADFDB00FBCB91 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		04E3CC65164ADFDB00FBCB91 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		04E3CC71164AEFB600FBCB91 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		04E794E61672890C001F1504 /* MyFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFlowLayout.h; sourceTree = "<group>"; };
+		04E794E71672890C001F1504 /* MyFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFlowLayout.m; sourceTree = "<group>"; };
+		04F665B4163EA02E00EF65E0 /* KilicogluMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KilicogluMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F665B8163EA02E00EF65E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04F665BA163EA02E00EF65E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04F665BC163EA02E00EF65E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04F665C0163EA02F00EF65E0 /* KilicogluMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KilicogluMobile-Info.plist"; sourceTree = "<group>"; };
+		04F665C2163EA02F00EF65E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F665C4163EA02F00EF65E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F665C6163EA02F00EF65E0 /* KilicogluMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KilicogluMobile-Prefix.pch"; sourceTree = "<group>"; };
+		04F665C7163EA02F00EF65E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F665C8163EA02F00EF65E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F665CA163EA02F00EF65E0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04F665CC163EA02F00EF65E0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		04F665CE163EA02F00EF65E0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04F665D1163EA02F00EF65E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		04F66630163EA59100EF65E0 /* KurumsalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KurumsalViewController.h; sourceTree = "<group>"; };
+		04F66631163EA59100EF65E0 /* KurumsalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KurumsalViewController.m; sourceTree = "<group>"; };
+		04F66633163EA5A600EF65E0 /* UrunlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunlerViewController.h; sourceTree = "<group>"; };
+		04F66634163EA5A600EF65E0 /* UrunlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunlerViewController.m; sourceTree = "<group>"; };
+		04F6663C163EA5F700EF65E0 /* BrosurlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrosurlerViewController.h; sourceTree = "<group>"; };
+		04F6663D163EA5F700EF65E0 /* BrosurlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrosurlerViewController.m; sourceTree = "<group>"; };
+		04F6663F163EA60E00EF65E0 /* TeknikCizimlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeknikCizimlerViewController.h; sourceTree = "<group>"; };
+		04F66640163EA60E00EF65E0 /* TeknikCizimlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeknikCizimlerViewController.m; sourceTree = "<group>"; };
+		04F66642163EA62B00EF65E0 /* IletisimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IletisimViewController.h; sourceTree = "<group>"; };
+		04F66643163EA62B00EF65E0 /* IletisimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IletisimViewController.m; sourceTree = "<group>"; };
+		04F66645163EA65A00EF65E0 /* AnasayfaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnasayfaViewController.h; sourceTree = "<group>"; };
+		04F66646163EA65A00EF65E0 /* AnasayfaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnasayfaViewController.m; sourceTree = "<group>"; };
+		04F66648163EA68700EF65E0 /* TumUrunlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumUrunlerViewController.h; sourceTree = "<group>"; };
+		04F66649163EA68700EF65E0 /* TumUrunlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumUrunlerViewController.m; sourceTree = "<group>"; };
+		04F6664C163EAB1300EF65E0 /* UrunGroupCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunGroupCollectionViewController.h; sourceTree = "<group>"; };
+		04F6664D163EAB1300EF65E0 /* UrunGroupCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunGroupCollectionViewController.m; sourceTree = "<group>"; };
+		04F6664F163EAB2C00EF65E0 /* UrunCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunCollectionViewController.h; sourceTree = "<group>"; };
+		04F66650163EAB2C00EF65E0 /* UrunCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunCollectionViewController.m; sourceTree = "<group>"; };
+		04F66652163EAB5700EF65E0 /* UrunGroupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunGroupViewCell.h; sourceTree = "<group>"; };
+		04F66653163EAB5700EF65E0 /* UrunGroupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunGroupViewCell.m; sourceTree = "<group>"; };
+		04F66655163EAB6E00EF65E0 /* UrunViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunViewCell.h; sourceTree = "<group>"; };
+		04F66656163EAB6E00EF65E0 /* UrunViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunViewCell.m; sourceTree = "<group>"; };
+		04F66659163EAD3300EF65E0 /* UrunlerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrunlerNavigationController.h; sourceTree = "<group>"; };
+		04F6665A163EAD3300EF65E0 /* UrunlerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrunlerNavigationController.m; sourceTree = "<group>"; };
+		04F6665C163EAD5500EF65E0 /* AnasayfaNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnasayfaNavigationController.h; sourceTree = "<group>"; };
+		04F6665D163EAD5500EF65E0 /* AnasayfaNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnasayfaNavigationController.m; sourceTree = "<group>"; };
+		04FCD3071664282900A132E0 /* BrosurlerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrosurlerNavigationController.h; sourceTree = "<group>"; };
+		04FCD3081664282900A132E0 /* BrosurlerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrosurlerNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F665B1163EA02E00EF65E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04529D87165193A6002BD620 /* AssetsLibrary.framework in Frameworks */,
+				0406AC27164F0CBE008B97D0 /* QuartzCore.framework in Frameworks */,
+				04E3CC72164AEFB600FBCB91 /* MediaPlayer.framework in Frameworks */,
+				04F665B9163EA02E00EF65E0 /* UIKit.framework in Frameworks */,
+				04F665BB163EA02E00EF65E0 /* Foundation.framework in Frameworks */,
+				04F665BD163EA02E00EF65E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0431D51716419B3C00076176 /* urunlerM */ = {
+			isa = PBXGroup;
+			children = (
+				042B164F16C8185D00F9BB2F /* menu_anasayfa1.png */,
+				042B165016C8185D00F9BB2F /* menu_brosurler.png */,
+				042B165116C8185D00F9BB2F /* menu_fotogaleri.png */,
+				042B165216C8185D00F9BB2F /* menu_iletisim.png */,
+				042B165316C8185D00F9BB2F /* menu_kurumsal.png */,
+				042B165416C8185D00F9BB2F /* menu_teknik_cizimler.png */,
+				042B165516C8185D00F9BB2F /* menu_tum_cati.png */,
+				042B165616C8185D00F9BB2F /* menu_urunler.png */,
+				042B165716C8185D00F9BB2F /* video_30x30.png */,
+			);
+			name = urunlerM;
+			sourceTree = "<group>";
+		};
+		0431D54D1641A90800076176 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0431D54E1641A94100076176 /* PopupItemObject.h */,
+				0431D54F1641A94100076176 /* PopupItemObject.m */,
+				047E18401642E89500E41A5C /* UrunDetayOb.h */,
+				047E18411642E89500E41A5C /* UrunDetayOb.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		04390F981657CDA800C37A5A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				04390F9A1657CDE100C37A5A /* UrunUtil.h */,
+				04390F9B1657CDE100C37A5A /* UrunUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		043EDA3C164C3D5C004CA049 /* tumUrunlerView */ = {
+			isa = PBXGroup;
+			children = (
+				042B151916C814D800F9BB2F /* tum_cati_new.png */,
+			);
+			name = tumUrunlerView;
+			sourceTree = "<group>";
+		};
+		044DB154167117EF004AC89C /* iletisim */ = {
+			isa = PBXGroup;
+			children = (
+				042B150916C8145300F9BB2F /* distributorlar1.png */,
+				042B150A16C8145300F9BB2F /* iletisim1.png */,
+				042B150B16C8145300F9BB2F /* kilicoglil1.png */,
+				042B150C16C8145300F9BB2F /* kilicoglu_yetkilileri1.png */,
+				042B150D16C8145300F9BB2F /* kilicoglu_yetkilileri2.png */,
+				042B150E16C8145300F9BB2F /* kılıçoglu_dist1.png */,
+				042B150F16C8145300F9BB2F /* kılıçoglu_yetkili_servis1.png */,
+				042B151016C8145300F9BB2F /* yetkili_servisler1.png */,
+			);
+			name = iletisim;
+			sourceTree = "<group>";
+		};
+		0455B41B1640598D00838E64 /* AnaSayfa */ = {
+			isa = PBXGroup;
+			children = (
+				0455B41D164059BE00838E64 /* PopupMenu.h */,
+				0455B41E164059BE00838E64 /* PopupMenu.m */,
+				0455B42016405A1400838E64 /* PopupItem.h */,
+				0455B42116405A1400838E64 /* PopupItem.m */,
+				046DB3871643A89900B1C110 /* UrunCustomCell.h */,
+				046DB3881643A89900B1C110 /* UrunCustomCell.m */,
+			);
+			name = AnaSayfa;
+			sourceTree = "<group>";
+		};
+		04758016169C9D0800C1B492 /* fotoGaleri */ = {
+			isa = PBXGroup;
+			children = (
+				04758018169C9D3500C1B492 /* FotoSliderViewViewController.h */,
+				04758019169C9D3500C1B492 /* FotoSliderViewViewController.m */,
+				04300BBD16B08E6D0024FBA4 /* FotoGaleriViewController.h */,
+				04300BBE16B08E6D0024FBA4 /* FotoGaleriViewController.m */,
+			);
+			name = fotoGaleri;
+			sourceTree = "<group>";
+		};
+		047E18371642E6B100E41A5C /* urundetay */ = {
+			isa = PBXGroup;
+			children = (
+				042B164716C8183100F9BB2F /* aksesuar_buton.png */,
+				042B164816C8183100F9BB2F /* fotograf_buton.png */,
+				042B164916C8183100F9BB2F /* uygulama_sekli__buton.png */,
+				042B164A16C8183100F9BB2F /* uygulamavideo_buton.png */,
+			);
+			name = urundetay;
+			sourceTree = "<group>";
+		};
+		047E18531643248200E41A5C /* urunler */ = {
+			isa = PBXGroup;
+			children = (
+				04804F721658F07400ADCEE9 /* gunespaneli */,
+				04804F711658F05A00ADCEE9 /* yamurIndirme */,
+				04804F701658F04800ADCEE9 /* KiremitLevhasi */,
+				04804F6E1658F03300ADCEE9 /* kiremitIrmigi */,
+				047E18581643254A00E41A5C /* isiYalitim */,
+				047E18571643253400E41A5C /* tuglalar */,
+				047E1856164324D000E41A5C /* catiPencere */,
+				047E1855164324C200E41A5C /* catiSistemleri */,
+				047E1854164324B800E41A5C /* kiremitler */,
+			);
+			name = urunler;
+			sourceTree = "<group>";
+		};
+		047E1854164324B800E41A5C /* kiremitler */ = {
+			isa = PBXGroup;
+			children = (
+				042B15F916C817E900F9BB2F /* akdeniz_baslik3.png */,
+				042B15FA16C817E900F9BB2F /* akdeniz_birlesik3.png */,
+				042B15FB16C817E900F9BB2F /* akdeniz.png */,
+				042B15FC16C817E900F9BB2F /* aksesuar_baslik.png */,
+				042B15FD16C817E900F9BB2F /* aksesuar.png */,
+				042B15FE16C817E900F9BB2F /* aksesuarlar_genel.png */,
+				042B15FF16C817E900F9BB2F /* alaturka_baslik.png */,
+				042B160016C817E900F9BB2F /* alaturka_birlesik.png */,
+				042B160116C817E900F9BB2F /* alaturka.png */,
+				042B160216C817E900F9BB2F /* anadolu_medeniyetleri_aksesuar.png */,
+				042B160316C817E900F9BB2F /* frigya_atesi_birlesik.png */,
+				042B160416C817E900F9BB2F /* frigya_atesi.png */,
+				042B160516C817E900F9BB2F /* frigya_baslik.png */,
+				042B160616C817E900F9BB2F /* granada_baslik.png */,
+				042B160716C817E900F9BB2F /* granada_birlesik.png */,
+				042B160816C817E900F9BB2F /* granada.png */,
+				042B160916C817E900F9BB2F /* hitit_atesi_birlesik.png */,
+				042B160A16C817E900F9BB2F /* hitit_atesi.png */,
+				042B160B16C817E900F9BB2F /* hitit_baslik.png */,
+				042B160C16C817E900F9BB2F /* kilicoglu_baslik.png */,
+				042B160D16C817E900F9BB2F /* kilicoglu1_birlesik.png */,
+				042B160E16C817E900F9BB2F /* kilicoglu1.png */,
+				042B160F16C817E900F9BB2F /* kiremit_levhası_aksesuar.png */,
+				042B161016C817E900F9BB2F /* truva_atesi_birlesik.png */,
+				042B161116C817E900F9BB2F /* truva_atesi.png */,
+				042B161216C817E900F9BB2F /* truva_baslik.png */,
+				042B161316C817E900F9BB2F /* valensiya_baslik.png */,
+				042B161416C817E900F9BB2F /* valensiya_birlesik.png */,
+				042B161516C817E900F9BB2F /* valensiya.png */,
+				042B161616C817E900F9BB2F /* vertical_line.png */,
+			);
+			name = kiremitler;
+			sourceTree = "<group>";
+		};
+		047E1855164324C200E41A5C /* catiSistemleri */ = {
+			isa = PBXGroup;
+			children = (
+				042B158516C8178700F9BB2F /* baca_fleks_baslik.png */,
+				042B158616C8178700F9BB2F /* baca_sapkasi_baslik.png */,
+				042B158716C8178700F9BB2F /* baca_sapkasi_birlesik.png */,
+				042B158816C8178700F9BB2F /* baca_sapkasi.png */,
+				042B158916C8178700F9BB2F /* bacafleks_birlesik.png */,
+				042B158A16C8178700F9BB2F /* bacafleks.png */,
+				042B158B16C8178700F9BB2F /* bacaser_baslik.png */,
+				042B158C16C8178700F9BB2F /* bacaser_birlesik.png */,
+				042B158D16C8178700F9BB2F /* bacaser.png */,
+				042B158E16C8178700F9BB2F /* bacaveduvar_dibi.png */,
+				042B158F16C8178700F9BB2F /* baski_citasi_baslik.png */,
+				042B159016C8178700F9BB2F /* baski_citasi_birlesik.png */,
+				042B159116C8178700F9BB2F /* baski_citasi.png */,
+				042B159216C8178700F9BB2F /* castiser.png */,
+				042B159316C8178700F9BB2F /* catifiks_baslik.png */,
+				042B159416C8178700F9BB2F /* catifiks_birlesik.png */,
+				042B159516C8178700F9BB2F /* catifiks.png */,
+				042B159616C8178700F9BB2F /* catise_baslik.png */,
+				042B159716C8178700F9BB2F /* catiser_birlesik.png */,
+				042B159816C8178700F9BB2F /* catiser_plus_baslik.png */,
+				042B159916C8178700F9BB2F /* catiser_plus_birlesik.png */,
+				042B159A16C8178700F9BB2F /* catiser_plus.png */,
+				042B159B16C8178700F9BB2F /* catiser_reflektif_baslik.png */,
+				042B159C16C8178700F9BB2F /* catiser_reflektif_birlesik.png */,
+				042B159D16C8178700F9BB2F /* catiser_reflektif.png */,
+				042B159E16C8178700F9BB2F /* catiser_yp_baslik.png */,
+				042B159F16C8178700F9BB2F /* catiseryp_birlesik.png */,
+				042B15A016C8178700F9BB2F /* cstiser_yp.png */,
+				042B15A116C8178700F9BB2F /* deay_cozumleri.png */,
+				042B15A216C8178700F9BB2F /* dere_detayi.png */,
+				042B15A316C8178700F9BB2F /* dereser_aliminyum_baslik.png */,
+				042B15A416C8178700F9BB2F /* dereser_aluminyum_birlesik.png */,
+				042B15A516C8178700F9BB2F /* dereser_aluminyum1.png */,
+				042B15A616C8178700F9BB2F /* dereser_aluminyum2.png */,
+				042B15A716C8178700F9BB2F /* dereser_baslik.png */,
+				042B15A816C8178700F9BB2F /* dereser_birlesik.png */,
+				042B15A916C8178700F9BB2F /* dereser_pvc1.png */,
+				042B15AA16C8178700F9BB2F /* dereser_pvc2.png */,
+				042B15AB16C8178700F9BB2F /* detay_cozumleri_baslik_cati.png */,
+				042B15AC16C8178700F9BB2F /* detay_cozumleri_birlesik_cati.png */,
+				042B15AD16C8178700F9BB2F /* havalandirma.png */,
+				042B15AE16C8178700F9BB2F /* isivesuyalitim.png */,
+				042B15AF16C8178700F9BB2F /* izocati_baslik.png */,
+				042B15B016C8178700F9BB2F /* izocati_birlesik.png */,
+				042B15B116C8178700F9BB2F /* izocati.png */,
+				042B15B216C8178700F9BB2F /* mahya_alti_cozumleri.png */,
+				042B15B316C8178700F9BB2F /* mahya_montaj_baslik.png */,
+				042B15B416C8178700F9BB2F /* mahya_montaj_birlesik.png */,
+				042B15B516C8178700F9BB2F /* mahya_montaj_harci.png */,
+				042B15B616C8178700F9BB2F /* mahyaser_baslik.png */,
+				042B15B716C8178700F9BB2F /* mahyaser_birlesik.png */,
+				042B15B816C8178700F9BB2F /* mahyaser.png */,
+				042B15B916C8178700F9BB2F /* sacak_havalandirma_baslik.png */,
+				042B15BA16C8178700F9BB2F /* sacak_havalandirma_taragi_birlesik.png */,
+				042B15BB16C8178700F9BB2F /* sacak_havalandirma.png */,
+				042B15BC16C8178700F9BB2F /* universal_havalandirma_baslik.png */,
+				042B15BD16C8178700F9BB2F /* universal_havalandirma_birlesik.png */,
+				042B15BE16C8178700F9BB2F /* universal_havalandirma.png */,
+			);
+			name = catiSistemleri;
+			sourceTree = "<group>";
+		};
+		047E1856164324D000E41A5C /* catiPencere */ = {
+			isa = PBXGroup;
+			children = (
+				042B157316C815CD00F9BB2F /* cati_cikis_kapagi_birlesik.png */,
+				042B157416C815CD00F9BB2F /* cati_cikis_kapagi.png */,
+				042B157516C815CD00F9BB2F /* cati_cikis_kapak_baslik.png */,
+				042B157616C815CD00F9BB2F /* cati_cikis_merdiveni_baslik.png */,
+				042B157716C815CD00F9BB2F /* cati_cikis_merdiveni_birlesik.png */,
+				042B157816C815CD00F9BB2F /* cati_cikis_merdiveni.png */,
+				042B157916C815CD00F9BB2F /* cati_penceresi_baslik.png */,
+				042B157A16C815CD00F9BB2F /* cati_penceresi_birlesik.png */,
+				042B157B16C815CD00F9BB2F /* cati_penceresi.png */,
+			);
+			name = catiPencere;
+			sourceTree = "<group>";
+		};
+		047E18571643253400E41A5C /* tuglalar */ = {
+			isa = PBXGroup;
+			children = (
+				042B155B16C815AF00F9BB2F /* ates_tugla_baslik.png */,
+				042B155C16C815AF00F9BB2F /* ates_tugla_birlesik.png */,
+				042B155D16C815AF00F9BB2F /* ates_tugla.png */,
+				042B155E16C815AF00F9BB2F /* cephe_doseme.png */,
+				042B155F16C815AF00F9BB2F /* cephe_kaplama_baslik.png */,
+				042B156016C815AF00F9BB2F /* cephe_kaplama_birlesik.png */,
+				042B156116C815AF00F9BB2F /* nt_tugla_baslik.png */,
+				042B156216C815AF00F9BB2F /* nt_tugla_birlesik.png */,
+				042B156316C815AF00F9BB2F /* nt_tugla.png */,
+				042B156416C815AF00F9BB2F /* taban_doseme_birlesik.png */,
+				042B156516C815AF00F9BB2F /* taban_doseme_tugla_baslik.png */,
+				042B156616C815AF00F9BB2F /* taban_doseme_tuglasi.png */,
+			);
+			name = tuglalar;
+			sourceTree = "<group>";
+		};
+		047E18581643254A00E41A5C /* isiYalitim */ = {
+			isa = PBXGroup;
+			children = (
+				042B152B16C8158800F9BB2F /* detay_cozumleri_baslik.png */,
+				042B152C16C8158800F9BB2F /* detay_cozumleri_birlesik.png */,
+				042B152D16C8158800F9BB2F /* detay_cozumleri.png */,
+				042B152E16C8158800F9BB2F /* dubeller_baslik.png */,
+				042B152F16C8158800F9BB2F /* dubeller_birlesik.png */,
+				042B153016C8158800F9BB2F /* dubeller.png */,
+				042B153116C8158800F9BB2F /* isi_yalitim_levhasi.png */,
+				042B153216C8158800F9BB2F /* kaplama_Astari_baslik.png */,
+				042B153316C8158800F9BB2F /* kaplama_Astari_birlesik.png */,
+				042B153416C8158800F9BB2F /* kaplama_astari.png */,
+				042B153516C8158800F9BB2F /* levha_baslik.png */,
+				042B153616C8158800F9BB2F /* levha_birlesik.png */,
+				042B153716C8158800F9BB2F /* mineral_siva_baslik.png */,
+				042B153816C8158800F9BB2F /* mineral_siva_birlesik.png */,
+				042B153916C8158800F9BB2F /* mineral_siva.png */,
+				042B153A16C8158800F9BB2F /* siva_filesi_baslik.png */,
+				042B153B16C8158800F9BB2F /* siva_filesi_birlesik.png */,
+				042B153C16C8158800F9BB2F /* siva_filesi.png */,
+				042B153D16C8158800F9BB2F /* siva_harci_baslik.png */,
+				042B153E16C8158800F9BB2F /* siva_harci_birlesik.png */,
+				042B153F16C8158800F9BB2F /* siva_harci.png */,
+				042B154016C8158800F9BB2F /* yapistirma_harci_baslik.png */,
+				042B154116C8158800F9BB2F /* yapistirma_harci_birlesik.png */,
+				042B154216C8158800F9BB2F /* yapistirma_harci.png */,
+			);
+			name = isiYalitim;
+			sourceTree = "<group>";
+		};
+		04804F6E1658F03300ADCEE9 /* kiremitIrmigi */ = {
+			isa = PBXGroup;
+			children = (
+				042B152716C8152B00F9BB2F /* kiremit_irmigi_baslik.png */,
+				042B152816C8152B00F9BB2F /* kiremit_irmigi.png */,
+			);
+			name = kiremitIrmigi;
+			sourceTree = "<group>";
+		};
+		04804F701658F04800ADCEE9 /* KiremitLevhasi */ = {
+			isa = PBXGroup;
+			children = (
+				042B152316C8151600F9BB2F /* kiremit_levhasi_baslik.png */,
+				042B152416C8151600F9BB2F /* kiremit_levhasi.png */,
+			);
+			name = KiremitLevhasi;
+			sourceTree = "<group>";
+		};
+		04804F711658F05A00ADCEE9 /* yamurIndirme */ = {
+			isa = PBXGroup;
+			children = (
+				042B151F16C8150800F9BB2F /* yagmur_indirme_genel_baslik.png */,
+				042B152016C8150800F9BB2F /* yagmur_indirme_genel_birlesik.png */,
+			);
+			name = yamurIndirme;
+			sourceTree = "<group>";
+		};
+		04804F721658F07400ADCEE9 /* gunespaneli */ = {
+			isa = PBXGroup;
+			children = (
+				042B151B16C814F800F9BB2F /* gunes_paneli_birlesik.png */,
+				042B151C16C814F800F9BB2F /* gunes_panelleri_baslik.png */,
+			);
+			name = gunespaneli;
+			sourceTree = "<group>";
+		};
+		0484D414163F419100E40179 /* menuicons */ = {
+			isa = PBXGroup;
+			children = (
+				04FEDAD316435B3A00AB8027 /* urunlist */,
+				047E18371642E6B100E41A5C /* urundetay */,
+				0431D51716419B3C00076176 /* urunlerM */,
+			);
+			name = menuicons;
+			sourceTree = "<group>";
+		};
+		048ED5061665721F0089948E /* pdfs */ = {
+			isa = PBXGroup;
+			children = (
+				042B168116C8196800F9BB2F /* 1bt_4faba87412b7e.jpg */,
+				042B168216C8196800F9BB2F /* 2bt_4ef42afbd1adf.jpg */,
+				042B168316C8196800F9BB2F /* 3bt_4fab799f9d6f9.jpg */,
+				042B168416C8196800F9BB2F /* 4bt_4ccfd642a2040.jpg */,
+				042B168516C8196800F9BB2F /* 5bt_4fab7a39de03b.jpg */,
+				042B168616C8196800F9BB2F /* 6bt_4ccfe7ce0bd86.jpg */,
+				042B168716C8196800F9BB2F /* 7bt_4ccfe7c2e832f.jpg */,
+				042B168816C8196800F9BB2F /* 8bt_506c424c281d6.jpg */,
+				042B168916C8196800F9BB2F /* 9bt_4ccfe7a89f796.jpg */,
+				048ED51A166573460089948E /* 8bt_506bf6422ab06.pdf */,
+				048ED518166573210089948E /* 6bt_4ccfd1d5cf725.pdf */,
+				048ED516166572EB0089948E /* 3bt_4fab7961e3bd8.pdf */,
+				048ED512166572770089948E /* 9bt_4ccfccfa266fe.pdf */,
+				048ED510166572710089948E /* 7bt_4ccfd163b5aa3.pdf */,
+				048ED50E166572660089948E /* 5bt_4fab79ed8f877.pdf */,
+				048ED50C166572600089948E /* 4bt_4e520d6f5a755.pdf */,
+				048ED50A1665723A0089948E /* 2bt_4fab79d06f018.pdf */,
+				048ED508166572350089948E /* 1bt_4faba88279a0a.pdf */,
+			);
+			name = pdfs;
+			sourceTree = "<group>";
+		};
+		048ED52E16657DF20089948E /* brosurler */ = {
+			isa = PBXGroup;
+			children = (
+				048ED52F16657E2E0089948E /* BrosurlerCollectionViewController.h */,
+				048ED53016657E2E0089948E /* BrosurlerCollectionViewController.m */,
+				048ED532166584510089948E /* BrosurCell.h */,
+				048ED533166584510089948E /* BrosurCell.m */,
+				048ED53516658C1E0089948E /* PDFUIViewViewController.h */,
+				048ED53616658C1E0089948E /* PDFUIViewViewController.m */,
+			);
+			name = brosurler;
+			sourceTree = "<group>";
+		};
+		04A3C32E169B65D40093F918 /* videolar */ = {
+			isa = PBXGroup;
+			children = (
+				04A3C32F169B662A0093F918 /* VideolarCollectionViewController.h */,
+				04A3C330169B662A0093F918 /* VideolarCollectionViewController.m */,
+				04A3C332169B664D0093F918 /* videolarCell.h */,
+				04A3C333169B664D0093F918 /* videolarCell.m */,
+			);
+			name = videolar;
+			sourceTree = "<group>";
+		};
+		04E3CC62164ADFBE00FBCB91 /* UrunDetail */ = {
+			isa = PBXGroup;
+			children = (
+				04529D8F1651ACBA002BD620 /* PhotoGalleryCell.h */,
+				04529D901651ACBA002BD620 /* PhotoGalleryCell.m */,
+				04E3CC64164ADFDB00FBCB91 /* VideoViewController.h */,
+				04E3CC65164ADFDB00FBCB91 /* VideoViewController.m */,
+				04804CDF164B7C480098B35E /* FotoGaleri.h */,
+				04804CE0164B7C480098B35E /* FotoGaleri.m */,
+				0445EF0B164D9B1500121ED5 /* FotoGallerySlide.h */,
+				0445EF0C164D9B1500121ED5 /* FotoGallerySlide.m */,
+				04529D8C1651AC92002BD620 /* PhotoGallery.h */,
+				04529D8D1651AC92002BD620 /* PhotoGallery.m */,
+				04E794E61672890C001F1504 /* MyFlowLayout.h */,
+				04E794E71672890C001F1504 /* MyFlowLayout.m */,
+				04A3C31A169B32E50093F918 /* FotoGalleryView.h */,
+				04A3C31B169B32E50093F918 /* FotoGalleryView.m */,
+			);
+			name = UrunDetail;
+			sourceTree = "<group>";
+		};
+		04F665A9163EA02E00EF65E0 = {
+			isa = PBXGroup;
+			children = (
+				0414F04E1699E3D4000176BB /* app_icon.png */,
+				0414F04B1699E3CC000176BB /* app_icon72x72.png */,
+				04F665BE163EA02E00EF65E0 /* KilicogluMobile */,
+				04F665B7163EA02E00EF65E0 /* Frameworks */,
+				04F665B5163EA02E00EF65E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F665B5163EA02E00EF65E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F665B4163EA02E00EF65E0 /* KilicogluMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F665B7163EA02E00EF65E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04529D86165193A6002BD620 /* AssetsLibrary.framework */,
+				0406AC26164F0CBE008B97D0 /* QuartzCore.framework */,
+				04E3CC71164AEFB600FBCB91 /* MediaPlayer.framework */,
+				04F665B8163EA02E00EF65E0 /* UIKit.framework */,
+				04F665BA163EA02E00EF65E0 /* Foundation.framework */,
+				04F665BC163EA02E00EF65E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F665BE163EA02E00EF65E0 /* KilicogluMobile */ = {
+			isa = PBXGroup;
+			children = (
+				04758016169C9D0800C1B492 /* fotoGaleri */,
+				04A3C32E169B65D40093F918 /* videolar */,
+				048ED52E16657DF20089948E /* brosurler */,
+				048ED5061665721F0089948E /* pdfs */,
+				04390F981657CDA800C37A5A /* Util */,
+				04E3CC62164ADFBE00FBCB91 /* UrunDetail */,
+				0431D54D1641A90800076176 /* model */,
+				0455B41B1640598D00838E64 /* AnaSayfa */,
+				04F66658163EAD0000EF65E0 /* NavigationController */,
+				04F6664B163EA6B300EF65E0 /* Urunler */,
+				04F665DC163EA0C200EF65E0 /* Images */,
+				04F665DB163EA09500EF65E0 /* ViewControllers */,
+				04F665C7163EA02F00EF65E0 /* AppDelegate.h */,
+				04F665C8163EA02F00EF65E0 /* AppDelegate.m */,
+				04F665D0163EA02F00EF65E0 /* MainStoryboard.storyboard */,
+				04F665BF163EA02E00EF65E0 /* Supporting Files */,
+			);
+			path = KilicogluMobile;
+			sourceTree = "<group>";
+		};
+		04F665BF163EA02E00EF65E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F665C0163EA02F00EF65E0 /* KilicogluMobile-Info.plist */,
+				04F665C1163EA02F00EF65E0 /* InfoPlist.strings */,
+				04F665C4163EA02F00EF65E0 /* main.m */,
+				04F665C6163EA02F00EF65E0 /* KilicogluMobile-Prefix.pch */,
+				04F665CA163EA02F00EF65E0 /* Default.png */,
+				04F665CC163EA02F00EF65E0 /* Default@2x.png */,
+				04F665CE163EA02F00EF65E0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F665DB163EA09500EF65E0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04F66630163EA59100EF65E0 /* KurumsalViewController.h */,
+				04F66631163EA59100EF65E0 /* KurumsalViewController.m */,
+				04F66633163EA5A600EF65E0 /* UrunlerViewController.h */,
+				04F66634163EA5A600EF65E0 /* UrunlerViewController.m */,
+				04F6663C163EA5F700EF65E0 /* BrosurlerViewController.h */,
+				04F6663D163EA5F700EF65E0 /* BrosurlerViewController.m */,
+				04F6663F163EA60E00EF65E0 /* TeknikCizimlerViewController.h */,
+				04F66640163EA60E00EF65E0 /* TeknikCizimlerViewController.m */,
+				04F66642163EA62B00EF65E0 /* IletisimViewController.h */,
+				04F66643163EA62B00EF65E0 /* IletisimViewController.m */,
+				04F66645163EA65A00EF65E0 /* AnasayfaViewController.h */,
+				04F66646163EA65A00EF65E0 /* AnasayfaViewController.m */,
+				04F66648163EA68700EF65E0 /* TumUrunlerViewController.h */,
+				04F66649163EA68700EF65E0 /* TumUrunlerViewController.m */,
+				047E182F1642E27100E41A5C /* UrunDetayViewController.h */,
+				047E18301642E27100E41A5C /* UrunDetayViewController.m */,
+				044DB16616712968004AC89C /* ContactViewController.h */,
+				044DB16716712968004AC89C /* ContactViewController.m */,
+				04A3C32B169B65AC0093F918 /* VideolarViewController.h */,
+				04A3C32C169B65AC0093F918 /* VideolarViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04F665DC163EA0C200EF65E0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				044DB154167117EF004AC89C /* iletisim */,
+				043EDA3C164C3D5C004CA049 /* tumUrunlerView */,
+				047E18531643248200E41A5C /* urunler */,
+				0484D414163F419100E40179 /* menuicons */,
+				04F665DD163EA0F000EF65E0 /* General */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		04F665DD163EA0F000EF65E0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				042B166116C8187A00F9BB2F /* ana_sayfa_ev.png */,
+				042B166216C8187A00F9BB2F /* backgroundSade.jpg */,
+				042B166316C8187A00F9BB2F /* bgEmpty.png */,
+				042B166416C8187A00F9BB2F /* distributorlar.png */,
+				042B166516C8187A00F9BB2F /* geri.png */,
+				042B166616C8187A00F9BB2F /* iletisim.png */,
+				042B166716C8187A00F9BB2F /* kalite.png */,
+				042B166816C8187A00F9BB2F /* kilicoglu_yetkilileri.png */,
+				042B166916C8187A00F9BB2F /* kurumsal_birlesik.png */,
+				042B166A16C8187A00F9BB2F /* kurumsal-video.png */,
+				042B166B16C8187A00F9BB2F /* pl_close_button.png */,
+				042B166C16C8187A00F9BB2F /* şirket-profili.png */,
+				042B166D16C8187A00F9BB2F /* tarihce.png */,
+				042B166E16C8187A00F9BB2F /* tum_cati_gorseli.png */,
+				042B166F16C8187A00F9BB2F /* ust_baslik.png */,
+				042B167016C8187A00F9BB2F /* yetkili_servisler.png */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		04F6664B163EA6B300EF65E0 /* Urunler */ = {
+			isa = PBXGroup;
+			children = (
+				04F66650163EAB2C00EF65E0 /* UrunCollectionViewController.m */,
+				04F6664C163EAB1300EF65E0 /* UrunGroupCollectionViewController.h */,
+				046DB36C1643A25C00B1C110 /* MainUrunlerViewController.h */,
+				046DB36D1643A25C00B1C110 /* MainUrunlerViewController.m */,
+				04F6664D163EAB1300EF65E0 /* UrunGroupCollectionViewController.m */,
+				04F6664F163EAB2C00EF65E0 /* UrunCollectionViewController.h */,
+				04F66652163EAB5700EF65E0 /* UrunGroupViewCell.h */,
+				04F66653163EAB5700EF65E0 /* UrunGroupViewCell.m */,
+				04F66655163EAB6E00EF65E0 /* UrunViewCell.h */,
+				04F66656163EAB6E00EF65E0 /* UrunViewCell.m */,
+				0484D3F3163F033E00E40179 /* UrunListContainerViewController.h */,
+				0484D3F4163F033E00E40179 /* UrunListContainerViewController.m */,
+			);
+			name = Urunler;
+			sourceTree = "<group>";
+		};
+		04F66658163EAD0000EF65E0 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				04F66659163EAD3300EF65E0 /* UrunlerNavigationController.h */,
+				04F6665A163EAD3300EF65E0 /* UrunlerNavigationController.m */,
+				04F6665C163EAD5500EF65E0 /* AnasayfaNavigationController.h */,
+				04F6665D163EAD5500EF65E0 /* AnasayfaNavigationController.m */,
+				044ADEA0164EC5CC007D04AB /* TumUrunlerNavigationController.h */,
+				044ADEA1164EC5CC007D04AB /* TumUrunlerNavigationController.m */,
+				0445FD8F1662CB0000834F26 /* TeknikcizimlerNavigationController.h */,
+				0445FD901662CB0000834F26 /* TeknikcizimlerNavigationController.m */,
+				0445FD921662D77800834F26 /* KurumsalNavigationController.h */,
+				0445FD931662D77800834F26 /* KurumsalNavigationController.m */,
+				04FCD3071664282900A132E0 /* BrosurlerNavigationController.h */,
+				04FCD3081664282900A132E0 /* BrosurlerNavigationController.m */,
+				04A3C328169B65940093F918 /* VideolarNavigationcontroller.h */,
+				04A3C329169B65940093F918 /* VideolarNavigationcontroller.m */,
+			);
+			name = NavigationController;
+			sourceTree = "<group>";
+		};
+		04FEDAD316435B3A00AB8027 /* urunlist */ = {
+			isa = PBXGroup;
+			children = (
+				042B163516C8181600F9BB2F /* catipenceresi_ana_secim1.png */,
+				042B163616C8181600F9BB2F /* catisistem_ana_secim1.png */,
+				042B163716C8181600F9BB2F /* gunes_ana_secim1.png */,
+				042B163816C8181600F9BB2F /* isiyalitim_ana_secim1.png */,
+				042B163916C8181600F9BB2F /* kiremit_ana_secim1.png */,
+				042B163A16C8181600F9BB2F /* kiremitirmigi_ana_secim1.png */,
+				042B163B16C8181600F9BB2F /* kiremitlevha_seçimsayfaları1.png */,
+				042B163C16C8181600F9BB2F /* tuglalar_seçimsayfaları1.png */,
+				042B163D16C8181600F9BB2F /* yagmur_ana_secim1.png */,
+			);
+			name = urunlist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F665B3163EA02E00EF65E0 /* KilicogluMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F665D8163EA02F00EF65E0 /* Build configuration list for PBXNativeTarget "KilicogluMobile" */;
+			buildPhases = (
+				04F665B0163EA02E00EF65E0 /* Sources */,
+				04F665B1163EA02E00EF65E0 /* Frameworks */,
+				04F665B2163EA02E00EF65E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KilicogluMobile;
+			productName = KilicogluMobile;
+			productReference = 04F665B4163EA02E00EF65E0 /* KilicogluMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F665AB163EA02E00EF65E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.filosoft;
+			};
+			buildConfigurationList = 04F665AE163EA02E00EF65E0 /* Build configuration list for PBXProject "KilicogluMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04F665A9163EA02E00EF65E0;
+			productRefGroup = 04F665B5163EA02E00EF65E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F665B3163EA02E00EF65E0 /* KilicogluMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F665B2163EA02E00EF65E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F665C3163EA02F00EF65E0 /* InfoPlist.strings in Resources */,
+				04F665CB163EA02F00EF65E0 /* Default.png in Resources */,
+				04F665CD163EA02F00EF65E0 /* Default@2x.png in Resources */,
+				04F665CF163EA02F00EF65E0 /* Default-568h@2x.png in Resources */,
+				04F665D2163EA02F00EF65E0 /* MainStoryboard.storyboard in Resources */,
+				048ED509166572350089948E /* 1bt_4faba88279a0a.pdf in Resources */,
+				048ED50B1665723A0089948E /* 2bt_4fab79d06f018.pdf in Resources */,
+				048ED50D166572600089948E /* 4bt_4e520d6f5a755.pdf in Resources */,
+				048ED50F166572660089948E /* 5bt_4fab79ed8f877.pdf in Resources */,
+				048ED511166572710089948E /* 7bt_4ccfd163b5aa3.pdf in Resources */,
+				048ED513166572770089948E /* 9bt_4ccfccfa266fe.pdf in Resources */,
+				048ED517166572EB0089948E /* 3bt_4fab7961e3bd8.pdf in Resources */,
+				048ED519166573210089948E /* 6bt_4ccfd1d5cf725.pdf in Resources */,
+				048ED51B166573460089948E /* 8bt_506bf6422ab06.pdf in Resources */,
+				0414F04C1699E3CC000176BB /* app_icon72x72.png in Resources */,
+				0414F04F1699E3D4000176BB /* app_icon.png in Resources */,
+				042B151116C8145300F9BB2F /* distributorlar1.png in Resources */,
+				042B151216C8145300F9BB2F /* iletisim1.png in Resources */,
+				042B151316C8145300F9BB2F /* kilicoglil1.png in Resources */,
+				042B151416C8145300F9BB2F /* kilicoglu_yetkilileri1.png in Resources */,
+				042B151516C8145300F9BB2F /* kilicoglu_yetkilileri2.png in Resources */,
+				042B151616C8145300F9BB2F /* kılıçoglu_dist1.png in Resources */,
+				042B151716C8145300F9BB2F /* kılıçoglu_yetkili_servis1.png in Resources */,
+				042B151816C8145300F9BB2F /* yetkili_servisler1.png in Resources */,
+				042B151A16C814D800F9BB2F /* tum_cati_new.png in Resources */,
+				042B151D16C814F800F9BB2F /* gunes_paneli_birlesik.png in Resources */,
+				042B151E16C814F800F9BB2F /* gunes_panelleri_baslik.png in Resources */,
+				042B152116C8150800F9BB2F /* yagmur_indirme_genel_baslik.png in Resources */,
+				042B152216C8150800F9BB2F /* yagmur_indirme_genel_birlesik.png in Resources */,
+				042B152516C8151600F9BB2F /* kiremit_levhasi_baslik.png in Resources */,
+				042B152616C8151600F9BB2F /* kiremit_levhasi.png in Resources */,
+				042B152916C8152B00F9BB2F /* kiremit_irmigi_baslik.png in Resources */,
+				042B152A16C8152B00F9BB2F /* kiremit_irmigi.png in Resources */,
+				042B154316C8158800F9BB2F /* detay_cozumleri_baslik.png in Resources */,
+				042B154416C8158800F9BB2F /* detay_cozumleri_birlesik.png in Resources */,
+				042B154516C8158800F9BB2F /* detay_cozumleri.png in Resources */,
+				042B154616C8158800F9BB2F /* dubeller_baslik.png in Resources */,
+				042B154716C8158800F9BB2F /* dubeller_birlesik.png in Resources */,
+				042B154816C8158800F9BB2F /* dubeller.png in Resources */,
+				042B154916C8158800F9BB2F /* isi_yalitim_levhasi.png in Resources */,
+				042B154A16C8158800F9BB2F /* kaplama_Astari_baslik.png in Resources */,
+				042B154B16C8158800F9BB2F /* kaplama_Astari_birlesik.png in Resources */,
+				042B154C16C8158800F9BB2F /* kaplama_astari.png in Resources */,
+				042B154D16C8158800F9BB2F /* levha_baslik.png in Resources */,
+				042B154E16C8158800F9BB2F /* levha_birlesik.png in Resources */,
+				042B154F16C8158800F9BB2F /* mineral_siva_baslik.png in Resources */,
+				042B155016C8158800F9BB2F /* mineral_siva_birlesik.png in Resources */,
+				042B155116C8158800F9BB2F /* mineral_siva.png in Resources */,
+				042B155216C8158800F9BB2F /* siva_filesi_baslik.png in Resources */,
+				042B155316C8158800F9BB2F /* siva_filesi_birlesik.png in Resources */,
+				042B155416C8158800F9BB2F /* siva_filesi.png in Resources */,
+				042B155516C8158800F9BB2F /* siva_harci_baslik.png in Resources */,
+				042B155616C8158800F9BB2F /* siva_harci_birlesik.png in Resources */,
+				042B155716C8158800F9BB2F /* siva_harci.png in Resources */,
+				042B155816C8158800F9BB2F /* yapistirma_harci_baslik.png in Resources */,
+				042B155916C8158800F9BB2F /* yapistirma_harci_birlesik.png in Resources */,
+				042B155A16C8158800F9BB2F /* yapistirma_harci.png in Resources */,
+				042B156716C815AF00F9BB2F /* ates_tugla_baslik.png in Resources */,
+				042B156816C815AF00F9BB2F /* ates_tugla_birlesik.png in Resources */,
+				042B156916C815AF00F9BB2F /* ates_tugla.png in Resources */,
+				042B156A16C815AF00F9BB2F /* cephe_doseme.png in Resources */,
+				042B156B16C815AF00F9BB2F /* cephe_kaplama_baslik.png in Resources */,
+				042B156C16C815AF00F9BB2F /* cephe_kaplama_birlesik.png in Resources */,
+				042B156D16C815AF00F9BB2F /* nt_tugla_baslik.png in Resources */,
+				042B156E16C815AF00F9BB2F /* nt_tugla_birlesik.png in Resources */,
+				042B156F16C815AF00F9BB2F /* nt_tugla.png in Resources */,
+				042B157016C815AF00F9BB2F /* taban_doseme_birlesik.png in Resources */,
+				042B157116C815AF00F9BB2F /* taban_doseme_tugla_baslik.png in Resources */,
+				042B157216C815AF00F9BB2F /* taban_doseme_tuglasi.png in Resources */,
+				042B157C16C815CD00F9BB2F /* cati_cikis_kapagi_birlesik.png in Resources */,
+				042B157D16C815CD00F9BB2F /* cati_cikis_kapagi.png in Resources */,
+				042B157E16C815CD00F9BB2F /* cati_cikis_kapak_baslik.png in Resources */,
+				042B157F16C815CD00F9BB2F /* cati_cikis_merdiveni_baslik.png in Resources */,
+				042B158016C815CD00F9BB2F /* cati_cikis_merdiveni_birlesik.png in Resources */,
+				042B158116C815CD00F9BB2F /* cati_cikis_merdiveni.png in Resources */,
+				042B158216C815CD00F9BB2F /* cati_penceresi_baslik.png in Resources */,
+				042B158316C815CD00F9BB2F /* cati_penceresi_birlesik.png in Resources */,
+				042B158416C815CD00F9BB2F /* cati_penceresi.png in Resources */,
+				042B15BF16C8178700F9BB2F /* baca_fleks_baslik.png in Resources */,
+				042B15C016C8178700F9BB2F /* baca_sapkasi_baslik.png in Resources */,
+				042B15C116C8178700F9BB2F /* baca_sapkasi_birlesik.png in Resources */,
+				042B15C216C8178700F9BB2F /* baca_sapkasi.png in Resources */,
+				042B15C316C8178700F9BB2F /* bacafleks_birlesik.png in Resources */,
+				042B15C416C8178700F9BB2F /* bacafleks.png in Resources */,
+				042B15C516C8178700F9BB2F /* bacaser_baslik.png in Resources */,
+				042B15C616C8178700F9BB2F /* bacaser_birlesik.png in Resources */,
+				042B15C716C8178700F9BB2F /* bacaser.png in Resources */,
+				042B15C816C8178700F9BB2F /* bacaveduvar_dibi.png in Resources */,
+				042B15C916C8178700F9BB2F /* baski_citasi_baslik.png in Resources */,
+				042B15CA16C8178700F9BB2F /* baski_citasi_birlesik.png in Resources */,
+				042B15CB16C8178700F9BB2F /* baski_citasi.png in Resources */,
+				042B15CC16C8178700F9BB2F /* castiser.png in Resources */,
+				042B15CD16C8178700F9BB2F /* catifiks_baslik.png in Resources */,
+				042B15CE16C8178700F9BB2F /* catifiks_birlesik.png in Resources */,
+				042B15CF16C8178700F9BB2F /* catifiks.png in Resources */,
+				042B15D016C8178700F9BB2F /* catise_baslik.png in Resources */,
+				042B15D116C8178700F9BB2F /* catiser_birlesik.png in Resources */,
+				042B15D216C8178700F9BB2F /* catiser_plus_baslik.png in Resources */,
+				042B15D316C8178700F9BB2F /* catiser_plus_birlesik.png in Resources */,
+				042B15D416C8178700F9BB2F /* catiser_plus.png in Resources */,
+				042B15D516C8178700F9BB2F /* catiser_reflektif_baslik.png in Resources */,
+				042B15D616C8178700F9BB2F /* catiser_reflektif_birlesik.png in Resources */,
+				042B15D716C8178700F9BB2F /* catiser_reflektif.png in Resources */,
+				042B15D816C8178700F9BB2F /* catiser_yp_baslik.png in Resources */,
+				042B15D916C8178700F9BB2F /* catiseryp_birlesik.png in Resources */,
+				042B15DA16C8178700F9BB2F /* cstiser_yp.png in Resources */,
+				042B15DB16C8178700F9BB2F /* deay_cozumleri.png in Resources */,
+				042B15DC16C8178700F9BB2F /* dere_detayi.png in Resources */,
+				042B15DD16C8178700F9BB2F /* dereser_aliminyum_baslik.png in Resources */,
+				042B15DE16C8178700F9BB2F /* dereser_aluminyum_birlesik.png in Resources */,
+				042B15DF16C8178700F9BB2F /* dereser_aluminyum1.png in Resources */,
+				042B15E016C8178700F9BB2F /* dereser_aluminyum2.png in Resources */,
+				042B15E116C8178700F9BB2F /* dereser_baslik.png in Resources */,
+				042B15E216C8178700F9BB2F /* dereser_birlesik.png in Resources */,
+				042B15E316C8178700F9BB2F /* dereser_pvc1.png in Resources */,
+				042B15E416C8178700F9BB2F /* dereser_pvc2.png in Resources */,
+				042B15E516C8178700F9BB2F /* detay_cozumleri_baslik_cati.png in Resources */,
+				042B15E616C8178700F9BB2F /* detay_cozumleri_birlesik_cati.png in Resources */,
+				042B15E716C8178700F9BB2F /* havalandirma.png in Resources */,
+				042B15E816C8178700F9BB2F /* isivesuyalitim.png in Resources */,
+				042B15E916C8178700F9BB2F /* izocati_baslik.png in Resources */,
+				042B15EA16C8178700F9BB2F /* izocati_birlesik.png in Resources */,
+				042B15EB16C8178700F9BB2F /* izocati.png in Resources */,
+				042B15EC16C8178700F9BB2F /* mahya_alti_cozumleri.png in Resources */,
+				042B15ED16C8178700F9BB2F /* mahya_montaj_baslik.png in Resources */,
+				042B15EE16C8178700F9BB2F /* mahya_montaj_birlesik.png in Resources */,
+				042B15EF16C8178700F9BB2F /* mahya_montaj_harci.png in Resources */,
+				042B15F016C8178700F9BB2F /* mahyaser_baslik.png in Resources */,
+				042B15F116C8178700F9BB2F /* mahyaser_birlesik.png in Resources */,
+				042B15F216C8178700F9BB2F /* mahyaser.png in Resources */,
+				042B15F316C8178700F9BB2F /* sacak_havalandirma_baslik.png in Resources */,
+				042B15F416C8178700F9BB2F /* sacak_havalandirma_taragi_birlesik.png in Resources */,
+				042B15F516C8178700F9BB2F /* sacak_havalandirma.png in Resources */,
+				042B15F616C8178700F9BB2F /* universal_havalandirma_baslik.png in Resources */,
+				042B15F716C8178700F9BB2F /* universal_havalandirma_birlesik.png in Resources */,
+				042B15F816C8178700F9BB2F /* universal_havalandirma.png in Resources */,
+				042B161716C817E900F9BB2F /* akdeniz_baslik3.png in Resources */,
+				042B161816C817E900F9BB2F /* akdeniz_birlesik3.png in Resources */,
+				042B161916C817E900F9BB2F /* akdeniz.png in Resources */,
+				042B161A16C817E900F9BB2F /* aksesuar_baslik.png in Resources */,
+				042B161B16C817E900F9BB2F /* aksesuar.png in Resources */,
+				042B161C16C817E900F9BB2F /* aksesuarlar_genel.png in Resources */,
+				042B161D16C817E900F9BB2F /* alaturka_baslik.png in Resources */,
+				042B161E16C817E900F9BB2F /* alaturka_birlesik.png in Resources */,
+				042B161F16C817E900F9BB2F /* alaturka.png in Resources */,
+				042B162016C817E900F9BB2F /* anadolu_medeniyetleri_aksesuar.png in Resources */,
+				042B162116C817E900F9BB2F /* frigya_atesi_birlesik.png in Resources */,
+				042B162216C817E900F9BB2F /* frigya_atesi.png in Resources */,
+				042B162316C817E900F9BB2F /* frigya_baslik.png in Resources */,
+				042B162416C817E900F9BB2F /* granada_baslik.png in Resources */,
+				042B162516C817E900F9BB2F /* granada_birlesik.png in Resources */,
+				042B162616C817E900F9BB2F /* granada.png in Resources */,
+				042B162716C817E900F9BB2F /* hitit_atesi_birlesik.png in Resources */,
+				042B162816C817E900F9BB2F /* hitit_atesi.png in Resources */,
+				042B162916C817E900F9BB2F /* hitit_baslik.png in Resources */,
+				042B162A16C817E900F9BB2F /* kilicoglu_baslik.png in Resources */,
+				042B162B16C817E900F9BB2F /* kilicoglu1_birlesik.png in Resources */,
+				042B162C16C817E900F9BB2F /* kilicoglu1.png in Resources */,
+				042B162D16C817E900F9BB2F /* kiremit_levhası_aksesuar.png in Resources */,
+				042B162E16C817E900F9BB2F /* truva_atesi_birlesik.png in Resources */,
+				042B162F16C817E900F9BB2F /* truva_atesi.png in Resources */,
+				042B163016C817E900F9BB2F /* truva_baslik.png in Resources */,
+				042B163116C817E900F9BB2F /* valensiya_baslik.png in Resources */,
+				042B163216C817E900F9BB2F /* valensiya_birlesik.png in Resources */,
+				042B163316C817E900F9BB2F /* valensiya.png in Resources */,
+				042B163416C817E900F9BB2F /* vertical_line.png in Resources */,
+				042B163E16C8181600F9BB2F /* catipenceresi_ana_secim1.png in Resources */,
+				042B163F16C8181600F9BB2F /* catisistem_ana_secim1.png in Resources */,
+				042B164016C8181600F9BB2F /* gunes_ana_secim1.png in Resources */,
+				042B164116C8181600F9BB2F /* isiyalitim_ana_secim1.png in Resources */,
+				042B164216C8181600F9BB2F /* kiremit_ana_secim1.png in Resources */,
+				042B164316C8181600F9BB2F /* kiremitirmigi_ana_secim1.png in Resources */,
+				042B164416C8181600F9BB2F /* kiremitlevha_seçimsayfaları1.png in Resources */,
+				042B164516C8181600F9BB2F /* tuglalar_seçimsayfaları1.png in Resources */,
+				042B164616C8181600F9BB2F /* yagmur_ana_secim1.png in Resources */,
+				042B164B16C8183100F9BB2F /* aksesuar_buton.png in Resources */,
+				042B164C16C8183100F9BB2F /* fotograf_buton.png in Resources */,
+				042B164D16C8183100F9BB2F /* uygulama_sekli__buton.png in Resources */,
+				042B164E16C8183100F9BB2F /* uygulamavideo_buton.png in Resources */,
+				042B165816C8185D00F9BB2F /* menu_anasayfa1.png in Resources */,
+				042B165916C8185D00F9BB2F /* menu_brosurler.png in Resources */,
+				042B165A16C8185D00F9BB2F /* menu_fotogaleri.png in Resources */,
+				042B165B16C8185D00F9BB2F /* menu_iletisim.png in Resources */,
+				042B165C16C8185D00F9BB2F /* menu_kurumsal.png in Resources */,
+				042B165D16C8185D00F9BB2F /* menu_teknik_cizimler.png in Resources */,
+				042B165E16C8185D00F9BB2F /* menu_tum_cati.png in Resources */,
+				042B165F16C8185D00F9BB2F /* menu_urunler.png in Resources */,
+				042B166016C8185D00F9BB2F /* video_30x30.png in Resources */,
+				042B167116C8187A00F9BB2F /* ana_sayfa_ev.png in Resources */,
+				042B167216C8187A00F9BB2F /* backgroundSade.jpg in Resources */,
+				042B167316C8187A00F9BB2F /* bgEmpty.png in Resources */,
+				042B167416C8187A00F9BB2F /* distributorlar.png in Resources */,
+				042B167516C8187A00F9BB2F /* geri.png in Resources */,
+				042B167616C8187A00F9BB2F /* iletisim.png in Resources */,
+				042B167716C8187A00F9BB2F /* kalite.png in Resources */,
+				042B167816C8187A00F9BB2F /* kilicoglu_yetkilileri.png in Resources */,
+				042B167916C8187A00F9BB2F /* kurumsal_birlesik.png in Resources */,
+				042B167A16C8187A00F9BB2F /* kurumsal-video.png in Resources */,
+				042B167B16C8187A00F9BB2F /* pl_close_button.png in Resources */,
+				042B167C16C8187A00F9BB2F /* şirket-profili.png in Resources */,
+				042B167D16C8187A00F9BB2F /* tarihce.png in Resources */,
+				042B167E16C8187A00F9BB2F /* tum_cati_gorseli.png in Resources */,
+				042B167F16C8187A00F9BB2F /* ust_baslik.png in Resources */,
+				042B168016C8187A00F9BB2F /* yetkili_servisler.png in Resources */,
+				042B168A16C8196800F9BB2F /* 1bt_4faba87412b7e.jpg in Resources */,
+				042B168B16C8196800F9BB2F /* 2bt_4ef42afbd1adf.jpg in Resources */,
+				042B168C16C8196800F9BB2F /* 3bt_4fab799f9d6f9.jpg in Resources */,
+				042B168D16C8196800F9BB2F /* 4bt_4ccfd642a2040.jpg in Resources */,
+				042B168E16C8196800F9BB2F /* 5bt_4fab7a39de03b.jpg in Resources */,
+				042B168F16C8196800F9BB2F /* 6bt_4ccfe7ce0bd86.jpg in Resources */,
+				042B169016C8196800F9BB2F /* 7bt_4ccfe7c2e832f.jpg in Resources */,
+				042B169116C8196800F9BB2F /* 8bt_506c424c281d6.jpg in Resources */,
+				042B169216C8196800F9BB2F /* 9bt_4ccfe7a89f796.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F665B0163EA02E00EF65E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F665C5163EA02F00EF65E0 /* main.m in Sources */,
+				04F665C9163EA02F00EF65E0 /* AppDelegate.m in Sources */,
+				04F66632163EA59100EF65E0 /* KurumsalViewController.m in Sources */,
+				04F66635163EA5A600EF65E0 /* UrunlerViewController.m in Sources */,
+				04F6663E163EA5F700EF65E0 /* BrosurlerViewController.m in Sources */,
+				04F66641163EA60E00EF65E0 /* TeknikCizimlerViewController.m in Sources */,
+				04F66644163EA62B00EF65E0 /* IletisimViewController.m in Sources */,
+				04F66647163EA65A00EF65E0 /* AnasayfaViewController.m in Sources */,
+				04F6664A163EA68700EF65E0 /* TumUrunlerViewController.m in Sources */,
+				04F6664E163EAB1300EF65E0 /* UrunGroupCollectionViewController.m in Sources */,
+				04F66651163EAB2C00EF65E0 /* UrunCollectionViewController.m in Sources */,
+				04F66654163EAB5700EF65E0 /* UrunGroupViewCell.m in Sources */,
+				04F66657163EAB6E00EF65E0 /* UrunViewCell.m in Sources */,
+				04F6665B163EAD3300EF65E0 /* UrunlerNavigationController.m in Sources */,
+				04F6665E163EAD5500EF65E0 /* AnasayfaNavigationController.m in Sources */,
+				0484D3F5163F033E00E40179 /* UrunListContainerViewController.m in Sources */,
+				0455B41F164059BE00838E64 /* PopupMenu.m in Sources */,
+				0455B42216405A1400838E64 /* PopupItem.m in Sources */,
+				0431D5501641A94100076176 /* PopupItemObject.m in Sources */,
+				047E18311642E27100E41A5C /* UrunDetayViewController.m in Sources */,
+				047E18421642E89500E41A5C /* UrunDetayOb.m in Sources */,
+				046DB36E1643A25C00B1C110 /* MainUrunlerViewController.m in Sources */,
+				046DB3891643A89900B1C110 /* UrunCustomCell.m in Sources */,
+				04E3CC66164ADFDB00FBCB91 /* VideoViewController.m in Sources */,
+				04804CE1164B7C480098B35E /* FotoGaleri.m in Sources */,
+				0445EF0D164D9B1500121ED5 /* FotoGallerySlide.m in Sources */,
+				044ADEA2164EC5CC007D04AB /* TumUrunlerNavigationController.m in Sources */,
+				04529D8E1651AC92002BD620 /* PhotoGallery.m in Sources */,
+				04529D911651ACBA002BD620 /* PhotoGalleryCell.m in Sources */,
+				04390F9C1657CDE100C37A5A /* UrunUtil.m in Sources */,
+				0445FD911662CB0000834F26 /* TeknikcizimlerNavigationController.m in Sources */,
+				0445FD941662D77800834F26 /* KurumsalNavigationController.m in Sources */,
+				04FCD3091664282900A132E0 /* BrosurlerNavigationController.m in Sources */,
+				048ED53116657E2E0089948E /* BrosurlerCollectionViewController.m in Sources */,
+				048ED534166584510089948E /* BrosurCell.m in Sources */,
+				048ED53716658C1E0089948E /* PDFUIViewViewController.m in Sources */,
+				044DB16816712968004AC89C /* ContactViewController.m in Sources */,
+				04E794E81672890C001F1504 /* MyFlowLayout.m in Sources */,
+				04A3C31C169B32E50093F918 /* FotoGalleryView.m in Sources */,
+				04A3C32A169B65940093F918 /* VideolarNavigationcontroller.m in Sources */,
+				04A3C32D169B65AC0093F918 /* VideolarViewController.m in Sources */,
+				04A3C331169B662A0093F918 /* VideolarCollectionViewController.m in Sources */,
+				04A3C334169B664D0093F918 /* videolarCell.m in Sources */,
+				0475801A169C9D3500C1B492 /* FotoSliderViewViewController.m in Sources */,
+				04300BBF16B08E6D0024FBA4 /* FotoGaleriViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F665C1163EA02F00EF65E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F665C2163EA02F00EF65E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04F665D0163EA02F00EF65E0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F665D1163EA02F00EF65E0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F665D6163EA02F00EF65E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		04F665D7163EA02F00EF65E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F665D9163EA02F00EF65E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KilicogluMobile/KilicogluMobile-Prefix.pch";
+				INFOPLIST_FILE = "KilicogluMobile/KilicogluMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04F665DA163EA02F00EF65E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KilicogluMobile/KilicogluMobile-Prefix.pch";
+				INFOPLIST_FILE = "KilicogluMobile/KilicogluMobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F665AE163EA02E00EF65E0 /* Build configuration list for PBXProject "KilicogluMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F665D6163EA02F00EF65E0 /* Debug */,
+				04F665D7163EA02F00EF65E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F665D8163EA02F00EF65E0 /* Build configuration list for PBXNativeTarget "KilicogluMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F665D9163EA02F00EF65E0 /* Debug */,
+				04F665DA163EA02F00EF65E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F665AB163EA02E00EF65E0 /* Project object */;
+}
